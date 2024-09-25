@@ -10,7 +10,7 @@ Bedrijfsbegeleider: Michael Post, full-stack developer
 Datum: <!-- oplevering datum-->
 
 ## Inleiding
-
+[text](text.md)
 <!-- geef aan waarom je stage hebt gelopen bij dit bedrijf. Hoe ben je bij dit
 bedrijf terecht gekomen? Hoe is de stage je bevallen? De inleiding moet de lezer
 prikkelen om verder te lezen -->
@@ -142,4 +142,128 @@ yo
 
 
 
-import { MapPinIcon, ClockIcon, CalendarIcon } from "@heroicons/vue/20/solid";
+<!-- 
+<template>
+  <picture 
+    v-if="image"
+    class="picture__image" 
+    :class="[
+      {'transparent' : image.extension === 'png'}
+    ]"
+  >
+    <source
+      v-for="(imgMobileWebSrcset, index) in reverseArray(combinedProperties.mobile_web_srcset)"
+      :key="index"
+      :media="imgMobileWebSrcset.media" 
+      :srcset="imgMobileWebSrcset.links"
+      type="image/webp"
+    >
+    <source
+      v-for="(imgMobileSrcset, index) in reverseArray(combinedProperties.mobile_srcset)"
+      :key="index"
+      :media="imgMobileSrcset.media" 
+      :srcset="imgMobileSrcset.links"
+      type="image/jpg"
+    >
+    
+    <source
+      v-for="(imgWebSrcset, index) in reverseArray(combinedProperties.web_srcset)"
+      :key="index"
+      :media="imgWebSrcset.media" 
+      :srcset="imgWebSrcset.links"
+      type="image/webp"
+    >
+    <source
+      v-for="(imgSrcset, index) in reverseArray(combinedProperties.srcset)"
+      :key="index"
+      :media="imgSrcset.media" 
+      :srcset="imgSrcset.links"
+      type="image/jpg"
+    >
+    
+
+    <img
+      :class="[ 'm-0','object-cover', combinedProperties.class, combinedProperties.aspectRatio ]"
+      :src="image.url"
+      :title="image.title"
+      :alt="combinedProperties.customAlt ?? image.title"
+      :width="combinedProperties.width ?? image.width"
+      :height="combinedProperties.height ?? image.height"
+      :loading="combinedProperties.loading ?? 'lazy'"
+      :style="[objectPositionStyle]"
+      decoding="async"
+    >
+  </picture>
+</template>
+
+<script setup>
+/* eslint-disable @typescript-eslint/no-unused-vars */
+const props = defineProps({
+  image: {
+    type: Object,
+    requird: true,
+    default: () => {}
+  },
+  properties: {
+    type: Object,
+    default: () => ({
+      focalPoint: [0.5, 0.5],
+      mobile_srcset: [],
+      mobile_web_srcset: [],
+      srcset: [],
+      web_srcset: [],
+      class: null,
+      aspectRatio: "aspect-auto",
+      customAlt: null,
+      width: null,
+      height: null,
+      loading: "lazy",
+    })
+  },
+});
+/* eslint-enable @typescript-eslint/no-unused-vars */
+
+const focalPoint = props.properties.focalPoint ?? props.image.focalPoint ?? [0.5, 0.5];
+const objectPositionArray = focalPoint.map(position => (Math.round(position * 100)) + "%")
+const objectPositionStyle = `object-position: ${objectPositionArray[0]} ${objectPositionArray[1]}`;
+
+const getImageData = (testString) => {
+  return Object.keys(props.image)
+  .filter(key => testString.test(key))
+  .map(key => {
+    const size = key.match(testString)[1];
+    return {
+      media: `(min-width: ${size}px)`,
+      links: props.image[key]
+    };
+  });
+};
+
+const srcset = getImageData(/^w(\d+)$/);
+const web_srcset = getImageData(/^webp_(\d+)$/);
+const mobile_srcset = getImageData(/^mobile_w(\d+)$/);
+const mobile_web_srcset = getImageData(/^mobile_webp_(\d+)$/);
+const aspectRatio = props.properties.aspectRatio ?? props.image.aspectRatio ?? "aspect-auto";
+
+const combinedProperties = computed(() => {
+  return {
+    ...props.properties,
+    ...props.image,
+    aspectRatio,
+    srcset,
+    web_srcset,
+    mobile_srcset,
+    mobile_web_srcset,
+  }
+});
+
+function reverseArray(arr) {
+  if (Array.isArray(arr) && arr.length > 0) {
+    arr.reverse();
+  }
+  return arr;
+}
+
+</script> -->
+
+
