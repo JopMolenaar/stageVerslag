@@ -52,6 +52,35 @@ dat je tijdens je stage hebt bijgehouden -->
 
   Ook zei Raoul dat niet iedereen zich aan de standaard van git flow houdt en vind dat je je gewoon aan de standaard moet houden en niet dingen er bij moet verzinnen die je dan eerst weer moet uitleggen. 
 
+  ##### Git flow deployment 
+
+  Nadat ik een feature had gebouwd voor DRN heb ik samen met Raoul DRN kunnen deployen naar productie (de website die live staat). Dit mocht na een GO van de klant. Eerst moesten we een nieuwe versie releasen om de versie tag up te daten. Deze werd v2.1.0 aangezien er een commit met feat: (feature added) begon en moesten we handmatig schrijven aan de hand van de git flow. Dit kan automatisch worden gedaan maar aangezien github soms dingen meeneemt die niet de bedoeling zijn hou je het hier mee in eigen hand. Daarna hebben we een pull request gemaakt van `develop` naar `master`. Hierin stonden stappen die we moesten doorlopen voor deze deploy en dat waren: 
+
+  ```
+  - [x] Nieuwe versie tag: vX.Y.Z
+  - [x] Backup van productie database downloaden (evt. minus activity logs content)
+  - [x] Nieuwe env variabelen? Op productie dyno instellen (check: .env.example)
+  - [x] PR aanmaken van [acceptance|develop|release]-branch naar [main|master]
+  - [x] Nieuwe Node versie? Set node versie in buddy action “Execute yarn lint. semantic release” (check in .nvmrc & package.json)
+  - [x] Productie deployen (via BuddyWorks/Heroku)
+  - [x] Na deployment In het CMS de nieuwe velden voorzien van teksten (popup titels, beschrijvingen, etc.)
+  - [x] Eventuele Freeform formulieren aanvullen met nieuwe velden
+  - [x] PR mergen
+  - [] Branches Cleanup (alleen master, develop en feature-branches over?)
+  - [x] Backmerge Master
+  ```
+
+  De eerste stap was dus het aanmaken van een nieuwe versie tag doormiddel van semantic release, alleen dan handmatig. Daarna maakte Raoul een backup van de database, dit is belangrijk voorals de deployment fout gaat, dan kan je het namelijk altijd terug zetten. Nieuwe env's hadden we niet. PR hadden we ook gemaakt. We hadden geen nieuwe Node versie dus die konden we ook overslaan. Daarna heeft Raoul de `develop` branch gedeployed in BuddyWorks. 
+  Terwijl het aan het deployen was liet Raoul mij Cypress zien waarmee je met bepaalde scripts heel snel websites (vooral de basis functionaliteiten zoals of zoeken werkt en of je geen lege lijst krijgt bij een bepaalde pagina) kan testen. Hij raadde mij dit wel aan om in te duiken. 
+  Daarna was het geployed en konden wij `develop` naar `master` mergen. Daarna moesten we nog een backmerge doen van `master` naar `develop` om 100% zeker te zijn dat alles changes die in master zitten ook in develop zitten (denk aan hotfixes of iets dat nog niet is gemerged naar develop). 
+
+  Na de deploy even gekeken of het allemaal goed werkte op productie daarna weer doorgegeven aan Lars. 
+
+  Content kon ik al toevoegen maar aangezien de klant juist de optie wilde om daar een video te plaatsen heb ik dat niet gedaan, Lars uiteindelijk wel. 
+
+  Ook had ik een GO gekregen om oba-congres op productie te zetten. Hier heb ik een pr voor aangemaakt van `develop` naar `master`, en nadat Colin de pr goed heeft gekeurd, op buddy de deploy heeft gedraait (Hier hoefde geen backups of iets voor gedraait te worden aangezien het een singlepage website is zonder database of iets) kon ik een release aanmaken `v1.2.2`. Colin vroeg zich nog af of het niet `v1.3.0` moest zijn maar ik zei dat het in principe alleen maar content changes zijn voor de gebruiker en dit voegt verder geen extra features toe en daar was hij het mee eens. 
+  <!-- [screen shots] -->
+
   #### Code enviroments & andere tools
 
   Bij Onetribe gebruiken ze Bitbucket en Github om hun code op te slaan. Dit verschilt per project door de fusering met noProtocol. 
@@ -61,13 +90,16 @@ dat je tijdens je stage hebt bijgehouden -->
   - Algolia -> search functies ???
   - Dato, Craft cms -> content management system
   - Heroku -> Database?
-  - Extra widgets zoals FOYS of localfocus -> hiermee komt vaak de klant mee aanzetten. Hier kiest Onetribe dus niet perse voor, en hebben dus ook vaak problemen door bugs bij de andere partij. 
+  - Extra widgets zoals FOYS of localfocus -> hiermee komt vaak de klant mee aanzetten. Hier kiest Onetribe dus niet perse voor, en hebben dus ook vaak problemen door bugs bij de andere partij.
+  - Buddy.works om websites te deployen
 
   #### Vue.js/Nuxt.js Onetribe
 
   Veel projecten maken gebruik van het Vue.js/Nuxt.js framework. Dit was helemaal nieuw voor mij dus dit was erg interessant. 
   Wat ik meteen al zag is dat dit erg component based wordt geschreven. Je hebt pages, en die bestaan uit components, en sommige components bestaan weer uit andere components. Door data door te geven en te kijken of bepaalde dingen moeten worden ingeladen als het nodig is, kun je dus met dezelfde componenten verschillende pagina's maken, zonder veel code duplication. Ook hebben deze componenten hun eigen component based styling en scripts. 
   <!-- meer voorbeelden en code hieronder -->
+
+
 
 ## Leerdoelen
 
