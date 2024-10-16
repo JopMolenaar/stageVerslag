@@ -158,7 +158,13 @@ installatie is makkelijk. Tailgrid heeft ingebouwde functies om bijvoorbeeld cla
 Daarna nog vragen gesteld over algolia en craft aan Colin. => Beter beeld over wat er gedaan moet worden voor hun. 
 In craft staat alle content, dat wordt gelinked met algolia, dat wordt ingeladen op de website en kan makkelijk en snel zoeken in wat in algolia staat. Verder gevraagd over wat ze denken te doen in craft. Sections in sections kunnen niet. Entries (soort pagina's) en reusable entries (herbruikbaare pagina's) bestaan ook. Verder vindt Tim het niet echt een goed idee om een tag op pagina's te zetten onder welke omgeving die moet komen, er zijn namelijk drie omgevingen met secties die pagina's bevatten. En in die omgevingen zijn een aantal secties hetzelfde, en je wilt geen dubbele pagina's maken. Ik zei dus tegen Colin of hij die niet als reusable pagina kon maken en die dan op meerdere pagina's kunnen gebruiken. Hij zei dat dat kon maar dat het niet echt zo werkt. 
 
+##### Design meeting pfed
 
+Focus bespreken voor nu, ze zijn nog bezig met het design. 
+
+##### UX meeting pfed
+
+Doorlopen van de wireframes, informatie structuur, punten opstellen om terug te geven aan de klant. Discussie voeren over bepaalde beslissingen met betreft opzet CMS omdat dit veel gevolgen gaat hebben op uren en hoe de klant straks content beheert. 
 
 ## Analyse feedbackformulieren 
 
