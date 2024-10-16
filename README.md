@@ -120,51 +120,65 @@ Voor de drie observatieopdrachten wilde ik onder andere stand-ups bijwonen, een 
 Ik heb veel **standups** bijgewoond waar verschillende functies bij aanwezig waren. Daarbij heb ik goed opgelet, geluisterd en input gegeven. Daarnaast vinden er ook veel gesprekken op de wwerkvloer plaats waar dingen worden besproken over projecten, volgende moves en statussen. Deze heb ik ook gezien, bijgewoond, en zelf gestart. Hierdoor heb ik een goed beeld gekregen over de samenwerking en communicatie op de werkvloer binnen het team en hieraan zelf ook meegedaan en zelf geoefent. Communicatie is key, je kan beter iets te veel zeggen dan te weinig. Wat ze met die informatie doen is niet jou probleem. Wel is het handig om de tijd van een ander te respecteren en bijvoorbeeld meerdere vragen tegelijkertijd stellen in person of in de mail. Hierdoor wordt de persoon niet onnodig meerdere keren uit zijn flow gehaald. 
 Wat er besproken wordt in de standups is vaak of er nog meer informatie is van de klant, statussen van tickets van de developers naar de pm'ers.
 
+<!-- - Ook wil ik graag een sprint voor de livegang en de livegang zelf bijwonen. Zo kan ik antwoord krijgen op hoe gaat dit in zijn werk, hoe werkt iedereen voor een bepaalde deadline, hoe gaat de communicatie tussen de klant, externe stakeholders, project managers en developers. Komen er nog veel dingen bij als je eenmaal live bent gegaan, dingen waar klanten nog op komen of niet chill vinden nadat ze live zijn gegaan.  -->
+
 **Livegang** van bepaalde websites heb ik ook zeker gezien, en zelfs zelf gedaan. De grootste livegang was die van peakz padel. Deze website zat in totaal al een jaar in het development traject en aan het einde is er steeds meer focus op gekomen. Dit kwams onder andere doordat er een definitieve datum was wanneer er banen kwamen in duitsland en voor die tijd moest de webiste af. Uiteindelijk is die in de 5de week van mijn stage live gegaan. Eerst Nederland (deze was het spannendst) en daarna Duitsland (dezelfde source code, alleen andere content). Dit ging allemaal makkelijker dan verwacht. Voor de livegang was er nog een spoed overleg omdat er peformance issues waren (onnodig data verkeer). Dit zou ervoor zorgen dat de site er snel uit zou liggen als er veel bezoekers op zouden komen. Uiteindelijk is ervoor gekozen om de livegang alsnog door te laten gaan en in Heroku (waar de website wordt gehost) een quick fix te doen waardoor de server scaleable is en deze hoeveelheid dataverkeer dus aan kan. Dit kwam wel met een kosten plaatje van 3500 euro per maand dus dit moest snel gefixed worden. 
 Colin en Wiebe hadden de laatste dingen naar master gemerged. En Tim en Stef gingen het stappenplan van Job doorlopen om de website op productie te krijgen en te koppelen aan de DNS records. Na de livegang zaten de pm'ers op te letten of de website het goed deed en hielden contact met de klant. Ondertussen waren Colin en Wiebe de website aan het optimaliseren en ik was andere bugs aan het oplossen. Een aantal dagen later was dit allemaal opgelost en kon Duitsland live. 
 
+<!-- - En het liefst zou ik een kick off van een project bijwonen, een beginnend project in kijken of de start van het development traject willen bijwonen of aan mee werken. Zo krijg ik meer inzicht over hoe het vanaf het begin in zijn werk gaat, door welke handen zulke projecten gaan voordat het live gaat.  -->
 
-- Ook wil ik graag een sprint voor de livegang en de livegang zelf bijwonen. Zo kan ik antwoord krijgen op hoe gaat dit in zijn werk, hoe werkt iedereen voor een bepaalde deadline, hoe gaat de communicatie tussen de klant, externe stakeholders, project managers en developers. Komen er nog veel dingen bij als je eenmaal live bent gegaan, dingen waar klanten nog op komen of niet chill vinden nadat ze live zijn gegaan. 
+Ik heb ook een **kickoff** van een nieuw project bij kunnen wonen. Dit project begint aan zijn development traject nadat het door de discovery, concept en bijna de design fase is gelopen. Deze kickoff begon met een meeting onder de developers zelf samen met een pm'er om deze dingen te bespreken:
 
-- En het liefst zou ik een kick off van een project bijwonen, een beginnend project in kijken of de start van het development traject willen bijwonen of aan mee werken. Zo krijg ik meer inzicht over hoe het vanaf het begin in zijn werk gaat, door welke handen zulke projecten gaan voordat het live gaat. 
+- Het concept te bespreken
+- Wat het is **=>** (15 websites naar 1 webiste, veel content, geen lastige styling, blokken bouwen, wel veel clickouts)
+- Welke tech stack **=>** Craft blokken bouwen, twig templating language, styling tailgrid, (1 tool waar vue voor wordt gebruikt (alleen ingelanden op die pagina))
+- Wat belangrijk is **=>** pagespeed, accessability en de grootste uitdaging is het goed opzetten van de craft structuur zodat het voor de klant en content beheerders het makkelijk is om overizichtelijk content te beheren. 
+- Taak verdeling
+- Planning
+- Deadline
+- Eerste taken
+- Doelen 
 
-##### kickoff Patienten federatie
+Verder werd er besproken hoe ze het willen bouwen, nieuwe dingen zoals (craft 5, tailgrids, algolia ook relatief nieuw voor veel developers)
 
-Fases van een project: 
- - discovery traject
- - concept traject
- - design traject
- - development traject
-
-Verder werd er besproken:
+<!-- ##### kickoff Patienten federatie -->
+<!-- Verder werd er besproken:
  Wat is het (15 websites naar 1 webiste, veel content, geen lastige styling, blokken bouwen, wel veel clickouts)
  Tech stack waarvoor is gekozen: craft blokken bouwen, twig templating language, styling tailgrid, (1 tool waar vue voor wordt gebruikt (alleen ingelanden op die pagina))
 Wat belangrijk is: pagespeed, accessability en de grootste uitdaging is het goed opzetten van de craft structuur. 
 Alles van scratch
 Verder is er dus een tool uit een website die opnieuw moet worden gebouwd. 
-
 Gesprekken over hoe ze het willen bouwen, nieuwe dingen zoals (craft 5, tailgrids, algolia ook relatief nieuw voor veel developers)
-
 Taak verdeling
-
 Prioriteit/focus: snel, leesbaar voor content beheerders in craft, toegankelijk
+Planning, deadline, eerste taken en doelen, tickets -->
 
-Planning, deadline, eerste taken en doelen, tickets
+Uiteindelijk moest ik even onderzoek doen naar Tailgrid. Hoe werkt het en wat heeft het.
+Het bestaat eigenlijk uit templates en components die gemaakt zijn met tailwind. De installatie is makkelijk. Tailgrid heeft ingebouwde functies om bijvoorbeeld classes te togglen en `:class=""` toe te voegen aan de hand van een boolean etc. Dit scheelt javascript schrijven. Qua menging met twig is het makkelijk want alle data gaat zo: `{{{ data.iets }}}` en twig heeft ook loop functies, verder is het allemaal html waar je de tailwind classes op kan zetten. Design gebruikt ook tailgrids dus dat is ook makkelijk want dan kan je de gekozen tailgrid components opzoeken, kopieeren en customizen. 
 
-Tailgrid onderzoek met combineren craft voor mij:
-Templates en components gemaakt met tailwind
-installatie is makkelijk. Tailgrid heeft ingebouwde functies om bijvoorbeeld classes te togglen en `:class=""` toe te voegen aan de hand van een boolean etc. Dit scheelt javascript schrijven. Qua menging met twig is het makkelijk want alle data gaat zo: `{{{ data.iets }}}` en twig heeft ook loop functies, verder is het allemaal html waar je de tailwind classes op kan zetten. Design gebruikt ook tailgrids dus dat is ook makkelijk. 
-
-Daarna nog vragen gesteld over algolia en craft aan Colin. => Beter beeld over wat er gedaan moet worden voor hun. 
+Daarna heb ik nog vragen gesteld over algolia en craft aan Colin. => Beter beeld over wat er gedaan moet worden voor hun. 
 In craft staat alle content, dat wordt gelinked met algolia, dat wordt ingeladen op de website en kan makkelijk en snel zoeken in wat in algolia staat. Verder gevraagd over wat ze denken te doen in craft. Sections in sections kunnen niet. Entries (soort pagina's) en reusable entries (herbruikbaare pagina's) bestaan ook. Verder vindt Tim het niet echt een goed idee om een tag op pagina's te zetten onder welke omgeving die moet komen, er zijn namelijk drie omgevingen met secties die pagina's bevatten. En in die omgevingen zijn een aantal secties hetzelfde, en je wilt geen dubbele pagina's maken. Ik zei dus tegen Colin of hij die niet als reusable pagina kon maken en die dan op meerdere pagina's kunnen gebruiken. Hij zei dat dat kon maar dat het niet echt zo werkt. 
 
-##### Design meeting pfed
+Verder hadden we de volgende dag nog twee andere meetings waar ik bij kon zitten. Deze meetings waren met design en UX en daar werd vooral de focus besproken voor nu. Ook werden de wireframes en informatie structuur doorlopen en werden er punten opgesteld terug naar de klant waar op sommige punten stevig druk op moest worden gevoerd. Dit komt omdat de klant vaak laat is met dingen aanleveren of feedback geven. 
 
-Focus bespreken voor nu, ze zijn nog bezig met het design. 
+Ook werd er gegeken of ze dingen aan het concept konder tweaken waardoor het werk scheelt, en het beter is voor de gebruiker. 
 
-##### UX meeting pfed
+<!-- Als die feedback steeds in fases laat komt dan is daar vaak geen tijd meer voor en dat is zonde. Ook verspilt dit uren aangezien het voorkomen had kunnen worden en soms changes terug moeten worden gedraaid aan de hand van feedback die er al had kunnen zijn.  -->
 
-Doorlopen van de wireframes, informatie structuur, punten opstellen om terug te geven aan de klant. Discussie voeren over bepaalde beslissingen met betreft opzet CMS omdat dit veel gevolgen gaat hebben op uren en hoe de klant straks content beheert. 
+Ook werd er discussie gevoerd over bepaalde beslissingen met betreft opzet CMS omdat dit veel gevolgen gaat hebben op uren en hoe de klant straks content beheert. 
+
+> Week 1 PFED = Job (backend developer) heeft craft, sentry, heroku (productie, staging) en AWS opgezet. Colin heeft de structuur van craft uitgedacht in excel en gespard met Raoul hiervoor. 
+
+> Week 2 PFED = 
+
+
+
+
+
+
+
+
+
 
 ## Analyse feedbackformulieren 
 
