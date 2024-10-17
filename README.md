@@ -99,7 +99,7 @@ dat je tijdens je stage hebt bijgehouden -->
   - Dato of Craft cms -> content management system
   - Heroku -> Hosting
   - Akamai -> Cache
-  - Screamingfrog -> SEO test
+  - Screamingfrog -> SEO testing, (Maar voor peakz hebben ze een SEO man ingehuurd om tips te geven)
   - Extra widgets zoals FOYS of localfocus -> hiermee komt vaak de klant mee aanzetten. Hier kiest Onetribe dus niet perse voor, en hebben dus ook vaak problemen door bugs bij de andere partij.
   - Buddy.works tussen iets om websites te deployen/hosten
 
@@ -125,17 +125,23 @@ dat je tijdens je stage hebt bijgehouden -->
 
 Voor de drie observatieopdrachten wilde ik onder andere stand-ups bijwonen, een livegang bijwonen en een kick-off/ start development proces van een project bijwonen. Dit is allemaal gelukt. 
 
-Ik heb veel **standups** bijgewoond waar verschillende functies bij aanwezig waren. Daarbij heb ik goed opgelet, geluisterd en input gegeven. Daarnaast vinden er ook veel gesprekken op de wwerkvloer plaats waar dingen worden besproken over projecten, volgende moves en statussen. Deze heb ik ook gezien, bijgewoond, en zelf gestart. Hierdoor heb ik een goed beeld gekregen over de samenwerking en communicatie op de werkvloer binnen het team en hieraan zelf ook meegedaan en zelf geoefent. Communicatie is key, je kan beter iets te veel zeggen dan te weinig. Wat ze met die informatie doen is niet jou probleem. Wel is het handig om de tijd van een ander te respecteren en bijvoorbeeld meerdere vragen tegelijkertijd stellen in person of in de mail. Hierdoor wordt de persoon niet onnodig meerdere keren uit zijn flow gehaald. 
+### Standups
+
+Ik heb veel standups bijgewoond waar verschillende functies bij aanwezig waren. Daarbij heb ik goed opgelet, geluisterd en input gegeven. Daarnaast vinden er ook veel gesprekken op de wwerkvloer plaats waar dingen worden besproken over projecten, volgende moves en statussen. Deze heb ik ook gezien, bijgewoond, en zelf gestart. Hierdoor heb ik een goed beeld gekregen over de samenwerking en communicatie op de werkvloer binnen het team en hieraan zelf ook meegedaan en zelf geoefent. Communicatie is key, je kan beter iets te veel zeggen dan te weinig. Wat ze met die informatie doen is niet jou probleem. Wel is het handig om de tijd van een ander te respecteren en bijvoorbeeld meerdere vragen tegelijkertijd stellen in person of in de mail. Hierdoor wordt de persoon niet onnodig meerdere keren uit zijn flow gehaald. 
 Wat er besproken wordt in de standups is vaak of er nog meer informatie is van de klant, statussen van tickets van de developers naar de pm'ers.
 
 <!-- - Ook wil ik graag een sprint voor de livegang en de livegang zelf bijwonen. Zo kan ik antwoord krijgen op hoe gaat dit in zijn werk, hoe werkt iedereen voor een bepaalde deadline, hoe gaat de communicatie tussen de klant, externe stakeholders, project managers en developers. Komen er nog veel dingen bij als je eenmaal live bent gegaan, dingen waar klanten nog op komen of niet chill vinden nadat ze live zijn gegaan.  -->
 
-**Livegang** van bepaalde websites heb ik ook zeker gezien, en zelfs zelf gedaan. De grootste livegang was die van peakz padel. Deze website zat in totaal al een jaar in het development traject en aan het einde is er steeds meer focus op gekomen. Dit kwams onder andere doordat er een definitieve datum was wanneer er banen kwamen in duitsland en voor die tijd moest de webiste af. Uiteindelijk is die in de 5de week van mijn stage live gegaan. Eerst Nederland (deze was het spannendst) en daarna Duitsland (dezelfde source code, alleen andere content). Dit ging allemaal makkelijker dan verwacht. Voor de livegang was er nog een spoed overleg omdat er peformance issues waren (onnodig data verkeer). Dit zou ervoor zorgen dat de site er snel uit zou liggen als er veel bezoekers op zouden komen. Uiteindelijk is ervoor gekozen om de livegang alsnog door te laten gaan en in Heroku (waar de website wordt gehost) een quick fix te doen waardoor de server scaleable is en deze hoeveelheid dataverkeer dus aan kan. Dit kwam wel met een kosten plaatje van 3500 euro per maand dus dit moest snel gefixed worden. 
+### Livegang
+
+Livegang van bepaalde websites heb ik ook zeker gezien, en zelfs zelf gedaan. De grootste livegang was die van peakz padel. Deze website zat in totaal al een jaar in het development traject en aan het einde is er steeds meer focus op gekomen. Dit kwams onder andere doordat er een definitieve datum was wanneer er banen kwamen in duitsland en voor die tijd moest de webiste af. Uiteindelijk is die in de 5de week van mijn stage live gegaan. Eerst Nederland (deze was het spannendst) en daarna Duitsland (dezelfde source code, alleen andere content). Dit ging allemaal makkelijker dan verwacht. Voor de livegang was er nog een spoed overleg omdat er peformance issues waren (onnodig data verkeer). Dit zou ervoor zorgen dat de site er snel uit zou liggen als er veel bezoekers op zouden komen. Uiteindelijk is ervoor gekozen om de livegang alsnog door te laten gaan en in Heroku (waar de website wordt gehost) een quick fix te doen waardoor de server scaleable is en deze hoeveelheid dataverkeer dus aan kan. Dit kwam wel met een kosten plaatje van 3500 euro per maand dus dit moest snel gefixed worden. 
 Colin en Wiebe hadden de laatste dingen naar master gemerged. En Tim en Stef gingen het stappenplan van Job doorlopen om de website op productie te krijgen en te koppelen aan de DNS records. Na de livegang zaten de pm'ers op te letten of de website het goed deed en hielden contact met de klant. Ondertussen waren Colin en Wiebe de website aan het optimaliseren en ik was andere bugs aan het oplossen. Een aantal dagen later was dit allemaal opgelost en kon Duitsland live. 
 
 <!-- - En het liefst zou ik een kick off van een project bijwonen, een beginnend project in kijken of de start van het development traject willen bijwonen of aan mee werken. Zo krijg ik meer inzicht over hoe het vanaf het begin in zijn werk gaat, door welke handen zulke projecten gaan voordat het live gaat.  -->
 
-Ik heb ook een **kickoff** van een nieuw project bij kunnen wonen. Dit project begint aan zijn development traject nadat het door de discovery, concept en bijna de design fase is gelopen. Deze kickoff begon met een meeting onder de developers zelf samen met een pm'er om deze dingen te bespreken:
+### Kickoff
+
+Ik heb ook een kickoff van een nieuw project bij kunnen wonen. Dit project begint aan zijn development traject nadat het door de discovery, concept en bijna de design fase is gelopen. Deze kickoff begon met een meeting onder de developers zelf samen met een pm'er om deze dingen te bespreken:
 
 - Het concept te bespreken
 - Wat het is **=>** (15 websites naar 1 webiste, veel content, geen lastige styling, blokken bouwen, wel veel clickouts)
@@ -187,7 +193,7 @@ Ook werd er gegeken of ze dingen aan het concept konder tweaken waardoor het wer
 
 Ook werd er discussie gevoerd over bepaalde beslissingen met betreft opzet CMS omdat dit veel gevolgen gaat hebben op uren en hoe de klant straks content beheert. 
 
-> Week 1 PFED = Job (backend developer) heeft craft, sentry, heroku (productie, staging) en AWS opgezet. Colin heeft de structuur van craft uitgedacht in excel en gespard met Raoul hiervoor. 
+> Week 1 PFED = Job (backend developer) heeft craft, sentry, heroku (productie, staging) en AWS opgezet en gelinked. Colin heeft de structuur van craft uitgedacht in excel en gespard met Raoul hiervoor. Ook heeft hij de eerste structuur gemaakt met code en vooral getest of dingen werken of niet. 
 
 > Week 2 PFED = 
 
