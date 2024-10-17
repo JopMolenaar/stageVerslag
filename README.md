@@ -81,6 +81,14 @@ dat je tijdens je stage hebt bijgehouden -->
   Ook had ik een GO gekregen om oba-congres op productie te zetten. Hier heb ik een pr voor aangemaakt van `develop` naar `master`, en nadat Colin de pr goed heeft gekeurd, op buddy de deploy heeft gedraait (Hier hoefde geen backups of iets voor gedraait te worden aangezien het een singlepage website is zonder database of iets) kon ik een release aanmaken `v1.2.2`. Colin vroeg zich nog af of het niet `v1.3.0` moest zijn maar ik zei dat het inprincipe alleen maar content changes zijn voor de gebruiker en dit voegt verder geen extra features toe en daar was hij het mee eens. 
   <!-- [screen shots] -->
 
+   ##### Merge regel
+
+   Bij Onetribe is er een regel dat je je eigen branch merged. Dit is een regel die bij mijn minor bij de HBO ICT het tegenovergestelde was. Daar gelde je merged meteen de branche die je hebt geapproved, als er iets fout is aan de changes, dan zijn jullie allebei verantwoordelijk. Aangezien degene die het approved en mergen goed had moeten testen en reviewen. 
+
+   Bij Onetribe geld dat niet. Hier maak je een pr, deze wordt gereviewed, feedback gegeven of approved en dan mag je hem daarna zelf mergen. Dit geeft als gevolg dat de reviews niet uitermate wordt getest en vooral wordt gekeken naar de kwaliteit van de code. Wel is dit sneller qua reviewen, is alleen degene die het heeft geschreven verantwoordelijk maar geeft mogelijk wel meer kleine (over het hoofd geziende) issues later omdat 1 persoon mogelijk meer fouten maakt dan 2 mensen bij elkaar. 
+
+   Wel is dit natuurlijk een professionele omgeving waar iedereen op een redelijk niveau codeerd en niet zoals op school waar een deel er niks van begrijpt en je juist van elkaars code ook wil leren.
+
   #### Code enviroments & andere tools
 
   Bij Onetribe gebruiken ze Bitbucket en Github om hun code op te slaan. Dit verschilt per project door de fusering met noProtocol. 
