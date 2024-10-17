@@ -86,20 +86,20 @@ dat je tijdens je stage hebt bijgehouden -->
   Bij Onetribe gebruiken ze Bitbucket en Github om hun code op te slaan. Dit verschilt per project door de fusering met noProtocol. 
 
   - Jira -> Issue boards
-  - Sentry -> debug, errors etc?????
-  - Algolia -> search functies ???
-  - Dato, Craft cms -> content management system
-  - Heroku -> Database?
+  - Sentry -> Website monitoring (debug, errors)
+  - Algolia -> Search
+  - Dato of Craft cms -> content management system
+  - Heroku -> Hosting
+  - Akamai -> Cache
+  - Screamingfrog -> SEO test
   - Extra widgets zoals FOYS of localfocus -> hiermee komt vaak de klant mee aanzetten. Hier kiest Onetribe dus niet perse voor, en hebben dus ook vaak problemen door bugs bij de andere partij.
-  - Buddy.works om websites te deployen
+  - Buddy.works tussen iets om websites te deployen/hosten
 
   #### Vue.js/Nuxt.js Onetribe
 
   Veel projecten maken gebruik van het Vue.js/Nuxt.js framework. Dit was helemaal nieuw voor mij dus dit was erg interessant. 
   Wat ik meteen al zag is dat dit erg component based wordt geschreven. Je hebt pages, en die bestaan uit components, en sommige components bestaan weer uit andere components. Door data door te geven en te kijken of bepaalde dingen moeten worden ingeladen als het nodig is, kun je dus met dezelfde componenten verschillende pagina's maken, zonder veel code duplication. Ook hebben deze componenten hun eigen component based styling en scripts. 
   <!-- meer voorbeelden en code hieronder -->
-
-
 
 ## Leerdoelen
 
@@ -155,6 +155,18 @@ Planning, deadline, eerste taken en doelen, tickets -->
 
 Uiteindelijk moest ik even onderzoek doen naar Tailgrid. Hoe werkt het en wat heeft het.
 Het bestaat eigenlijk uit templates en components die gemaakt zijn met tailwind. De installatie is makkelijk. Tailgrid heeft ingebouwde functies om bijvoorbeeld classes te togglen en `:class=""` toe te voegen aan de hand van een boolean etc. Dit scheelt javascript schrijven. Qua menging met twig is het makkelijk want alle data gaat zo: `{{{ data.iets }}}` en twig heeft ook loop functies, verder is het allemaal html waar je de tailwind classes op kan zetten. Design gebruikt ook tailgrids dus dat is ook makkelijk want dan kan je de gekozen tailgrid components opzoeken, kopieeren en customizen. 
+
+<!-- Tailwind en tailgrids installeren
+
+De tailwind.config.js updaten met tailgrids als plugin: plugins: [require("tailgrids/plugin")]
+
+input.css opzetten en tailwind includen
+
+Build command toevoegen en de output.css toevoegen aan het twig component
+
+Tailgrids gebruikt alpine.js voor interactieve componenten. Dit komt niet gelijk mee met tailgrids dus dat moet apart geïnstalleerd worden. 
+
+Verder kunnen we html templates en/of componenten kopiëren uit tailgrids aan de hand van het design dat ook gebruik maakt van tailgrids en omschrijven naar een mooie twig componenten. -->
 
 Daarna heb ik nog vragen gesteld over algolia en craft aan Colin. => Beter beeld over wat er gedaan moet worden voor hun. 
 In craft staat alle content, dat wordt gelinked met algolia, dat wordt ingeladen op de website en kan makkelijk en snel zoeken in wat in algolia staat. Verder gevraagd over wat ze denken te doen in craft. Sections in sections kunnen niet. Entries (soort pagina's) en reusable entries (herbruikbaare pagina's) bestaan ook. Verder vindt Tim het niet echt een goed idee om een tag op pagina's te zetten onder welke omgeving die moet komen, er zijn namelijk drie omgevingen met secties die pagina's bevatten. En in die omgevingen zijn een aantal secties hetzelfde, en je wilt geen dubbele pagina's maken. Ik zei dus tegen Colin of hij die niet als reusable pagina kon maken en die dan op meerdere pagina's kunnen gebruiken. Hij zei dat dat kon maar dat het niet echt zo werkt. 
