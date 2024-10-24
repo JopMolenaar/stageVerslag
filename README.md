@@ -109,6 +109,55 @@ dat je tijdens je stage hebt bijgehouden -->
   Wat ik meteen al zag is dat dit erg component based wordt geschreven. Je hebt pages, en die bestaan uit components, en sommige components bestaan weer uit andere components. Door data door te geven en te kijken of bepaalde dingen moeten worden ingeladen als het nodig is, kun je dus met dezelfde componenten verschillende pagina's maken, zonder veel code duplication. Ook hebben deze componenten hun eigen component based styling en scripts. 
   <!-- meer voorbeelden en code hieronder -->
 
+
+  #### Opzetten projecten 
+
+  Raoul gebruikt ddev (docker) maakt twee docker containers voor db en craft (cms) gebruikt graph ql
+
+  De andere gebruiken, herd (server), dbngin (kan je je database in uploaden, staat op localhost) Met tableplus kan je hem inkijken. (Gebruikt php)
+
+  Alles in de env moet goed staan.
+  Craft moet eerst runnen want anders kan je de fe niet builden want nuxt voert queries uit om te kijken of alles kan wat die wilt doen en als dat niet kan gaat er iets niet goed. 
+
+  Nuxt draait op localhost nadat die is gebuild. 
+
+  Craft kan headless maar hoeft niet. Headless: draait op een andere server. Kunnen elkaar wel bereiken, andere url.
+
+  [Tekening maken]
+
+  Uiteindelijk moest ik een andere dag een plugin installeren in craft. Deze plugin zou moeten zorgen voor extra beveiliging wanneer je een wachtwoord aanmaakt. 
+  Het project draaide al lokaal en na de documentatie te lezen probeerde ik de plugin te installeren. Dit lukte niet in een keer, ik wist niet precies waar ik het commando moest draaien en ik had wat database connection errors. Na een poos de containers uit docker uit te hebben gezet en weer aan te hebben gezet deed het commando het opeens wel. Dit had ik gepushed, maar zag dat niet alle files nodig waren om te committen. Ik had wat changes verwijderd maar raakte verstrikt tussen de verschillende versies van mijn branch en craft, ook na het opnieuw bouwen van het cms en de yaml files gelijk trekken zeurde het cms over changes die waren gemaakt in de database. Dat betekende maar een ding en dat was het project nuken en opnieuw bouwen. 
+  Dit was een goede oefening om weer het proces van een project opzetten te doorlopen en lukte meteen. Mijn stappen waren dit:
+  ```
+  $ make nuke
+  $ ddev import-db --file=./oba-leef-en-leef.sql #importeer de database die ik aan het begin van de stage had gekregen. Deze heeft nog niet de changes van mijn geinstalleerde plugin. 
+  $ ddev . make build-cms # bouw het cms in een docker container
+  $ make build-web # bouw de front-end
+  $ make run # host de front-end op localhost (geen docker container)
+  ```
+
+  Nadat het project opnieuw was gebouwd checkte ik of de plugin in craft stond. Dit was niet het geval en kon ik dus weer opnieuw installeren. Om de database altijd te bereiken moest ik de host van mijn database uitgebreider opschrijven. Dus het werd niet `DB_DSN="mysql:host=db;port=3306;dbname=db"` maar `DB_DSN="mysql:host=127.0.0.1:3306;port=3306;dbname=db"`
+
+  Dit kon ik zien door `ddev status` te draaien in de terminal want daar stonden dit soort gegevens. 
+
+  Installatie van de plugin:
+
+  ```
+  $ cd cms
+  $ ddev composer require "born05/craft-enforcepassword:^2.0.0" -w && ddev craft plugin/install enforce-password
+  ```
+
+  Dit lukte allemaal en installeerde alleen de benodigde files. Daarna heb ik nog een enforce-password.php file aangemaakt om de criteria van een nieuw wachtwoord te benoemen en zo nodig aan te passen. Colin wilde niet dat het wachtwoord na een aantal dagen zou expireren dus die hebben we op 0 gezet. En verder wordt alleen het laatste wachtwoord opgeslagen i.p.v de laatste vijf. Dit heb ik getest het werkte. 
+
+  ```
+  $ ddev craft users/create --admin 
+  Email: testtest@test.com
+  Username: jopadmin
+  Set a password for this user? (yes|no) [no]:yes
+  Password: 
+  Password should be at least 16 characters.
+  ```
+
 ## Leerdoelen
 
   ### Samen ontwerpen
@@ -195,8 +244,9 @@ Ook werd er discussie gevoerd over bepaalde beslissingen met betreft opzet CMS o
 
 > Week 1 PFED = Job (backend developer) heeft craft, sentry, heroku (productie, staging) en AWS opgezet en gelinked. Colin heeft de structuur van craft uitgedacht in excel en gespard met Raoul hiervoor. Ook heeft hij de eerste structuur gemaakt met code en vooral getest of dingen werken of niet. 
 
-> Week 2 PFED = 
+> Week 2 PFED = Start sprint 1, nogs steeds veel meetings. Design presentatie, issues gemaakt aan de hand van de TA. 
 
+> Week 3 PFED = 
 
 
 
