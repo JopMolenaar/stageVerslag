@@ -123,7 +123,7 @@ dat je tijdens je stage hebt bijgehouden -->
 
   Craft kan headless maar hoeft niet. Headless: draait op een andere server. Kunnen elkaar wel bereiken, andere url.
 
-  [Tekening maken]
+  //TODO [Tekening maken]
 
   Uiteindelijk moest ik een andere dag een plugin installeren in craft. Deze plugin zou moeten zorgen voor extra beveiliging wanneer je een wachtwoord aanmaakt. 
   Het project draaide al lokaal en na de documentatie te lezen probeerde ik de plugin te installeren. Dit lukte niet in een keer, ik wist niet precies waar ik het commando moest draaien en ik had wat database connection errors. Na een poos de containers uit docker uit te hebben gezet en weer aan te hebben gezet deed het commando het opeens wel. Dit had ik gepushed, maar zag dat niet alle files nodig waren om te committen. Ik had wat changes verwijderd maar raakte verstrikt tussen de verschillende versies van mijn branch en craft, ook na het opnieuw bouwen van het cms en de yaml files gelijk trekken zeurde het cms over changes die waren gemaakt in de database. Dat betekende maar een ding en dat was het project nuken en opnieuw bouwen. 
@@ -158,17 +158,69 @@ dat je tijdens je stage hebt bijgehouden -->
   Password should be at least 16 characters.
   ```
 
+  Alle projecten die ik daarna heb opgestart gingen veel vlotter dan daarvoor. Het meeste waar ik nog tegenaan liep was dat de `.env` variabelen niet goed stonden. Hier heb ik de andere keren extra op gelet en naar gekeken. Zo was er bijvoorbeeld redis toegevoegd door de backend developer in het patienten federatie project die ik al draaiend had gekregen op mijn computer. Maar de nieuwe changes zorgde ervoor dat het het niet meer deed. Na wat research en de error meldingen te hebben gelezen kwam ik er achter welke variabelen en files ik miste. Dit waren de `docker-compose.redis.yaml` (die stond in de `.gitignore`), de redis variabelen in de `.env` en ik moest redis op mijn computer nog installeren. Na wat experimenteren zorgde `REDIS_HOST=host.docker.internal` in de .env er uiteindelijk voor dat de redis DB connectie geopend kon worden.   
+
 ## Leerdoelen
 
   ### Samen ontwerpen
 
+  - Standups bijgewoond
+  - Communicatie naar pm'ers / klant / developers
+  - Meetings pfed {start project}
+  - ...
+
+  Feedback verwerkt:
+  Gedachten gangen: 
+
   ### Prototypen en uitwerken
+
+  - Peakz features
+  - De rijke noordzee features
+  - Logica Vista
+  - Oba features
+  - {soon} Blokken bouwen pfed
+
+  - Veel projecten opgezet
+  - Nieuwe systemen gebruikt
+  - Releases gedaan
+
+  Feedback verwerkt:
+  Gedachten gangen: 
 
   ### Evalueren
 
+  - Week 5 dag 2
+  - Week 7 dag 1
+  - Week 7 dag 5
+  -
+  -
+
+  ()
+
   ### Oriënteren en begrijpen
 
+  - Week 1 dag 3
+  - Week 3 dag 3
+  - Week 4 dag 4
+  - Week 5 dag 2
+  - Week 5 dag 3
+  - Week 6 dag 4
+  - Week 7 dag 2
+  - Week 7 dag 5
+  - Week 8 dag 1
+
+  (Onderzoek naar craft, tailgrids, twig, vue + nuxt, logica vista)
+
   ### Verbeelden en conceptualiseren
+
+  - Week 1 dag 3
+  - Week 4 dag 4
+  - Week 5 dag 2
+  - Week 6 dag 4
+  - Week 7 dag 5
+  - Week 8 dag 1
+
+  ()
 
 ## Observatieopdrachten
 
@@ -244,14 +296,11 @@ Ook werd er discussie gevoerd over bepaalde beslissingen met betreft opzet CMS o
 
 > Week 1 PFED = Job (backend developer) heeft craft, sentry, heroku (productie, staging) en AWS opgezet en gelinked. Colin heeft de structuur van craft uitgedacht in excel en gespard met Raoul hiervoor. Ook heeft hij de eerste structuur gemaakt met code en vooral getest of dingen werken of niet. 
 
-> Week 2 PFED = Start sprint 1, nogs steeds veel meetings. Design presentatie, issues gemaakt aan de hand van de TA. 
+> Week 2 PFED = Start sprint 1, nog steeds veel meetings. Design presentatie, issues gemaakt aan de hand van de TA. 
 
-> Week 3 PFED = 
+> Week 3 PFED = Laatste feedback punten, klant is laat met feedback, cms logica is al in de maak,
 
-
-
-
-
+> Week 4 PFED = Begonnen met blokken bouwen. Logica staat al. 
 
 
 
@@ -265,3 +314,5 @@ Ook werd er discussie gevoerd over bepaalde beslissingen met betreft opzet CMS o
 
 
 
+router_http_port: "8010"  # Port to be used for http (defaults to global configuration, usually 80)
+router_https_port: "443" # Port for https (defaults to global configuration, usually 443)
