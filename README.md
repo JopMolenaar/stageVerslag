@@ -35,6 +35,68 @@ jouw werkzaamheden en van jouw gemaakte beroepsproducten. Laat afbeeldingen
 zien van wat je hebt gemaakt en het proces erachter. TIP: Gebruik hierbij het logboek
 dat je tijdens je stage hebt bijgehouden -->
 
+Ik heb tijdens mijn stage meegewerkt aan meerdere projecten waaronder ....
+Op deze projecten maakte ik features, loste ik bugs op, ..., ... en nog veel meer met behulp van het nuxt/vue framework maar ook .twig, typescript, en andere tools.
+
+Hierbij heb ik heel veel geleerd over de techniek die onetribe gebruikt voor hun projecten en over onetribe en het bedrijfsleven zelf. Daarom wil ik niet alleen mijn leerdoelen behandelen in dit verslag maar ook uitleggen wat ik daarnaast allemaal geleerd en gezien heb. Dit sluit natuulijk ook aan op mijn leerdoelen.
+
+## Leerdoelen
+
+  ### Samen ontwerpen
+
+  - Standups bijgewoond
+  - Communicatie naar pm'ers / klant / developers
+  - Meetings pfed {start project}
+  - ...
+
+  Feedback verwerkt:
+  Gedachten gangen: 
+
+  ### Prototypen en uitwerken
+
+  - Peakz features
+  - De rijke noordzee features
+  - Logica Vista
+  - Oba features
+  - {soon} Blokken bouwen pfed
+
+  - Veel projecten opgezet
+  - Nieuwe systemen gebruikt
+  - Releases gedaan
+
+  Feedback verwerkt:
+  Gedachten gangen: 
+
+  ### Evalueren
+
+  - Week 5 dag 2: pre filled in form links voor PEAKZ (3 keer de code geevalueerd en verbeterd)
+  - Week 7 dag 1: Aspect ratio videos uit data voor PEAKZ (ook meerdere keren  geevalueerd en verbeterd)
+  - Week 7 dag 5: Code geevalueerd en bedacht dat het hier handig zou zijn om comments toe te voegen. 
+
+  ### Oriënteren en begrijpen
+
+  - Week 1 dag 3
+  - Week 3 dag 3
+  - Week 4 dag 4
+  - Week 5 dag 2
+  - Week 5 dag 3
+  - Week 6 dag 4
+  - Week 7 dag 2
+  - Week 7 dag 5
+  - Week 8 dag 1
+
+  (Onderzoek naar craft, tailgrids, twig, vue + nuxt, logica vista)
+
+  ### Verbeelden en conceptualiseren
+
+  - Week 1 dag 3: stukje typescript schrijven, na wat evalueren de javascript achtige code meer naar typescript geschreven, code die er al was herbruikt, en zag dat de code hierdoor een aantal code duplication kreeg, ik verzon hiervoor een oplossing maar wilde eerst vragen aan mijn collega developer of er geen helper functies hiervoor zouden moeten worden gemaakt. Antwoord: ja dat kan, is niet nodig voor deze sprint.
+  - Week 4 dag 4: Meerdere oplossingen voorgesteld over een te lange button met je eigen naam die naar je account gaat op de PEAKZ website.
+  - Week 5 dag 2: Ik had een oplossing bedacht voor de pre filled form links, en liet Wiebe dat zien. Wiebe zei dat dit ook te snappen zou moeten zijn voor de klant (aangezien content beheerders ook dingen in het cms veranderen, en als er dan een nieuw formulier komt moet de content beheerder deze stappen doorlopen zondar dat die enig verstand heeft van url's enzo) Ik evalueerde mijn oplossing en zag dat de oplossing voor de meeste zeker te snappen is, maar niet voor iedereen. Ik legde het uit aan de pm'er aangezien een betere oplossing tijd zou kosten. De pm'er vond de oplossing te snappen en goed genoeg, er moet desnoods een beetje documentatie bij van 2 regels. 
+  - Week 6 dag 4:
+  - Week 7 dag 5: Filter opties uitzetten voor oba leef en leer, en dit mooi afmaken met user friendly oplossingen na er kritisch naar hebben gekeken. 
+  - Week 8 dag 1: 
+  - Week 9: vista logica (kritisch naar het formulier gekeken en features erbij gebouwd die nog niet bestonden zoals: extra lagen toevoegen aan het formulier en velden kunnen tonen, de extra velden kunnen valideren (voor meerdere types in de diepere lagen), geneste antwoorden kunnen verwijderen als je een lag erboven iets veranderd, error meldingen voor die geneste velden kunnen laten zien, ) ook nog de code geoptimaliseerd.
+
   ### Werkwijzen Onetribe
 
   Aangezien Onetribe gefuseerd is met noprotocol hebben ze nu nog meerdere werk-omgevingen en manieren voor de versie beheer. Ik dacht eerst dat er meerdere manier waren maar uiteindelijk kwam ik erachter dat ze allemaal de git flow manier willen aanhouden. Hierbij wordt de versie van je applicatie automatisch geupdate aan de hand van wat je in je commit messages zet. Ook worden de branches automatisch in een map geordend aan de hand van wat je voor je branch zet. Naast git flow heb ik ook geleerd dat ze de commit messages in voltooide tijd schrijven, dit is handig want dan leest diegene die het reviewed wat die changes gaan doen en niet wat ze al gedaan hebben, want dat is niet zo. 
@@ -109,7 +171,6 @@ dat je tijdens je stage hebt bijgehouden -->
   Wat ik meteen al zag is dat dit erg component based wordt geschreven. Je hebt pages, en die bestaan uit components, en sommige components bestaan weer uit andere components. Door data door te geven en te kijken of bepaalde dingen moeten worden ingeladen als het nodig is, kun je dus met dezelfde componenten verschillende pagina's maken, zonder veel code duplication. Ook hebben deze componenten hun eigen component based styling en scripts. 
   <!-- meer voorbeelden en code hieronder -->
 
-
   #### Opzetten projecten 
 
   Raoul gebruikt ddev (docker) maakt twee docker containers voor db en craft (cms) gebruikt graph ql
@@ -123,7 +184,7 @@ dat je tijdens je stage hebt bijgehouden -->
 
   Craft kan headless maar hoeft niet. Headless: draait op een andere server. Kunnen elkaar wel bereiken, andere url.
 
-  //TODO [Tekening maken]
+  <!-- // TODO [Tekening maken] -->
 
   Uiteindelijk moest ik een andere dag een plugin installeren in craft. Deze plugin zou moeten zorgen voor extra beveiliging wanneer je een wachtwoord aanmaakt. 
   Het project draaide al lokaal en na de documentatie te lezen probeerde ik de plugin te installeren. Dit lukte niet in een keer, ik wist niet precies waar ik het commando moest draaien en ik had wat database connection errors. Na een poos de containers uit docker uit te hebben gezet en weer aan te hebben gezet deed het commando het opeens wel. Dit had ik gepushed, maar zag dat niet alle files nodig waren om te committen. Ik had wat changes verwijderd maar raakte verstrikt tussen de verschillende versies van mijn branch en craft, ook na het opnieuw bouwen van het cms en de yaml files gelijk trekken zeurde het cms over changes die waren gemaakt in de database. Dat betekende maar een ding en dat was het project nuken en opnieuw bouwen. 
@@ -160,68 +221,6 @@ dat je tijdens je stage hebt bijgehouden -->
 
   Alle projecten die ik daarna heb opgestart gingen veel vlotter dan daarvoor. Het meeste waar ik nog tegenaan liep was dat de `.env` variabelen niet goed stonden. Hier heb ik de andere keren extra op gelet en naar gekeken. Zo was er bijvoorbeeld redis toegevoegd door de backend developer in het patienten federatie project die ik al draaiend had gekregen op mijn computer. Maar de nieuwe changes zorgde ervoor dat het het niet meer deed. Na wat research en de error meldingen te hebben gelezen kwam ik er achter welke variabelen en files ik miste. Dit waren de `docker-compose.redis.yaml` (die stond in de `.gitignore`), de redis variabelen in de `.env` en ik moest redis op mijn computer nog installeren. Na wat experimenteren zorgde `REDIS_HOST=host.docker.internal` in de .env er uiteindelijk voor dat de redis DB connectie geopend kon worden.   
 
-## Leerdoelen
-
-  ### Samen ontwerpen
-
-  - Standups bijgewoond
-  - Communicatie naar pm'ers / klant / developers
-  - Meetings pfed {start project}
-  - ...
-
-  Feedback verwerkt:
-  Gedachten gangen: 
-
-  ### Prototypen en uitwerken
-
-  - Peakz features
-  - De rijke noordzee features
-  - Logica Vista
-  - Oba features
-  - {soon} Blokken bouwen pfed
-
-  - Veel projecten opgezet
-  - Nieuwe systemen gebruikt
-  - Releases gedaan
-
-  Feedback verwerkt:
-  Gedachten gangen: 
-
-  ### Evalueren
-
-  - Week 5 dag 2
-  - Week 7 dag 1
-  - Week 7 dag 5
-  -
-  -
-
-  ()
-
-  ### Oriënteren en begrijpen
-
-  - Week 1 dag 3
-  - Week 3 dag 3
-  - Week 4 dag 4
-  - Week 5 dag 2
-  - Week 5 dag 3
-  - Week 6 dag 4
-  - Week 7 dag 2
-  - Week 7 dag 5
-  - Week 8 dag 1
-
-  (Onderzoek naar craft, tailgrids, twig, vue + nuxt, logica vista)
-
-  ### Verbeelden en conceptualiseren
-
-  - Week 1 dag 3
-  - Week 4 dag 4
-  - Week 5 dag 2
-  - Week 6 dag 4
-  - Week 7 dag 5
-  - Week 8 dag 1
-
-  ()
-
 ## Observatieopdrachten
 
 Voor de drie observatieopdrachten wilde ik onder andere stand-ups bijwonen, een livegang bijwonen en een kick-off/ start development proces van een project bijwonen. Dit is allemaal gelukt. 
@@ -256,32 +255,8 @@ Ik heb ook een kickoff van een nieuw project bij kunnen wonen. Dit project begin
 
 Verder werd er besproken hoe ze het willen bouwen, nieuwe dingen zoals (craft 5, tailgrids, algolia ook relatief nieuw voor veel developers)
 
-<!-- ##### kickoff Patienten federatie -->
-<!-- Verder werd er besproken:
- Wat is het (15 websites naar 1 webiste, veel content, geen lastige styling, blokken bouwen, wel veel clickouts)
- Tech stack waarvoor is gekozen: craft blokken bouwen, twig templating language, styling tailgrid, (1 tool waar vue voor wordt gebruikt (alleen ingelanden op die pagina))
-Wat belangrijk is: pagespeed, accessability en de grootste uitdaging is het goed opzetten van de craft structuur. 
-Alles van scratch
-Verder is er dus een tool uit een website die opnieuw moet worden gebouwd. 
-Gesprekken over hoe ze het willen bouwen, nieuwe dingen zoals (craft 5, tailgrids, algolia ook relatief nieuw voor veel developers)
-Taak verdeling
-Prioriteit/focus: snel, leesbaar voor content beheerders in craft, toegankelijk
-Planning, deadline, eerste taken en doelen, tickets -->
-
 Uiteindelijk moest ik even onderzoek doen naar Tailgrid. Hoe werkt het en wat heeft het.
 Het bestaat eigenlijk uit templates en components die gemaakt zijn met tailwind. De installatie is makkelijk. Tailgrid heeft ingebouwde functies om bijvoorbeeld classes te togglen en `:class=""` toe te voegen aan de hand van een boolean etc. Dit scheelt javascript schrijven. Qua menging met twig is het makkelijk want alle data gaat zo: `{{{ data.iets }}}` en twig heeft ook loop functies, verder is het allemaal html waar je de tailwind classes op kan zetten. Design gebruikt ook tailgrids dus dat is ook makkelijk want dan kan je de gekozen tailgrid components opzoeken, kopieeren en customizen. 
-
-<!-- Tailwind en tailgrids installeren
-
-De tailwind.config.js updaten met tailgrids als plugin: plugins: [require("tailgrids/plugin")]
-
-input.css opzetten en tailwind includen
-
-Build command toevoegen en de output.css toevoegen aan het twig component
-
-Tailgrids gebruikt alpine.js voor interactieve componenten. Dit komt niet gelijk mee met tailgrids dus dat moet apart geïnstalleerd worden. 
-
-Verder kunnen we html templates en/of componenten kopiëren uit tailgrids aan de hand van het design dat ook gebruik maakt van tailgrids en omschrijven naar een mooie twig componenten. -->
 
 Daarna heb ik nog vragen gesteld over algolia en craft aan Colin. => Beter beeld over wat er gedaan moet worden voor hun. 
 In craft staat alle content, dat wordt gelinked met algolia, dat wordt ingeladen op de website en kan makkelijk en snel zoeken in wat in algolia staat. Verder gevraagd over wat ze denken te doen in craft. Sections in sections kunnen niet. Entries (soort pagina's) en reusable entries (herbruikbaare pagina's) bestaan ook. Verder vindt Tim het niet echt een goed idee om een tag op pagina's te zetten onder welke omgeving die moet komen, er zijn namelijk drie omgevingen met secties die pagina's bevatten. En in die omgevingen zijn een aantal secties hetzelfde, en je wilt geen dubbele pagina's maken. Ik zei dus tegen Colin of hij die niet als reusable pagina kon maken en die dan op meerdere pagina's kunnen gebruiken. Hij zei dat dat kon maar dat het niet echt zo werkt. 
@@ -289,8 +264,6 @@ In craft staat alle content, dat wordt gelinked met algolia, dat wordt ingeladen
 Verder hadden we de volgende dag nog twee andere meetings waar ik bij kon zitten. Deze meetings waren met design en UX en daar werd vooral de focus besproken voor nu. Ook werden de wireframes en informatie structuur doorlopen en werden er punten opgesteld terug naar de klant waar op sommige punten stevig druk op moest worden gevoerd. Dit komt omdat de klant vaak laat is met dingen aanleveren of feedback geven. 
 
 Ook werd er gegeken of ze dingen aan het concept konder tweaken waardoor het werk scheelt, en het beter is voor de gebruiker. 
-
-<!-- Als die feedback steeds in fases laat komt dan is daar vaak geen tijd meer voor en dat is zonde. Ook verspilt dit uren aangezien het voorkomen had kunnen worden en soms changes terug moeten worden gedraaid aan de hand van feedback die er al had kunnen zijn.  -->
 
 Ook werd er discussie gevoerd over bepaalde beslissingen met betreft opzet CMS omdat dit veel gevolgen gaat hebben op uren en hoe de klant straks content beheert. 
 
@@ -300,10 +273,7 @@ Ook werd er discussie gevoerd over bepaalde beslissingen met betreft opzet CMS o
 
 > Week 3 PFED = Laatste feedback punten, klant is laat met feedback, cms logica is al in de maak,
 
-> Week 4 PFED = Begonnen met blokken bouwen. Logica staat al. 
-
-
-
+> Week 4 PFED = Klant nog steeds geen akkoord op informatie architectuur, verder is er al wel begonnen met het bouwen (voorzichtig en voorbereidend) maar als het akkoord langer op zich laat wachten kan er niks worden gedaan. Nu vindt de klant dit niet zo erg, maar voor Onetribe is dit wel naar, aangezien zij dan langer met een project bezig zijn en in die tijd al een nieuw project hadden kunnen aannemen. 
 
 ## Analyse feedbackformulieren 
 
@@ -314,5 +284,5 @@ Ook werd er discussie gevoerd over bepaalde beslissingen met betreft opzet CMS o
 
 
 
-router_http_port: "8010"  # Port to be used for http (defaults to global configuration, usually 80)
-router_https_port: "443" # Port for https (defaults to global configuration, usually 443)
+<!-- router_http_port: "8010"  # Port to be used for http (defaults to global configuration, usually 80)
+router_https_port: "443" # Port for https (defaults to global configuration, usually 443) -->
