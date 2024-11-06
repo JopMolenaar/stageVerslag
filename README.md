@@ -171,24 +171,62 @@ Hierbij heb ik heel veel geleerd over de techniek die onetribe gebruikt voor hun
   Wat ik meteen al zag is dat dit erg component based wordt geschreven. Je hebt pages, en die bestaan uit components, en sommige components bestaan weer uit andere components. Door data door te geven en te kijken of bepaalde dingen moeten worden ingeladen als het nodig is, kun je dus met dezelfde componenten verschillende pagina's maken, zonder veel code duplication. Ook hebben deze componenten hun eigen component based styling en scripts. 
   <!-- meer voorbeelden en code hieronder -->
 
+  Wat ik veel heb gebruikt in vue wat aansluit op de vue manier van code schrijven zijn:
+  - Computed properties
+  ```js
+  const trueOrFalse = computed(()=> {
+    return eenArray.lenght > 1;
+  })
+
+  console.log(trueOrFalse) // functie wordt uitgevoerd als je de variabele gebruikt, logt true of false
+  ```
+
+  - props doorgeven aan een component: 
+  ```js
+  <component
+    :ditIsEenProp="trueOrFalse"
+  >
+  ```
+
+  En in het component kan je dan zo de props inzien:
+
+  ```js
+    const props = {
+      ditIsEenProp: boolean;
+    }
+    console.log(props.ditIsEenProp) // dit logt true of false
+  ```
+
+  - v-if en v-for 
+  ```js
+  <component
+      v-if="ditIsEenProp" v-for="nestedGroup in groups"
+  >
+  ```
+
   #### Opzetten projecten 
 
-  Raoul gebruikt ddev (docker) maakt twee docker containers voor db en craft (cms) gebruikt graph ql
+  Tijdens mijn stage heb ik een hoop projecten moeten opzetten om daaraan te kunnen werken. Dit vond ik lastiger dan developen aangezien het vaak niet meteen werkt, niet alle error meldingen duidelijk zijn en je kennis nodig hebt om mogelijk te kunnen zien waar het aan ligt. Ook moet je alle stappen doorlopen en is dit niet altijd goed gedocumenteerd omdat ik vaak op edge cases terecht kom. Hier heb ik veel van geleerd, denk bijvoorbeeld aan hoe het werkt, de stappen die je moet doorlopen, errors herkennen, de benodigdheden weten (bepaalde talen, databases, lokale server). Door al dit vaak te hebben gedaan, veel hulp te hebben gekregen en vragen te stellen ging dit opzetten steeds soepeler en zelfstandiger, en snapte ik ook beter hoe die projecten in elkaar zaten. 
 
-  De andere gebruiken, herd (server), dbngin (kan je je database in uploaden, staat op localhost) Met tableplus kan je hem inkijken. (Gebruikt php)
+  De systemen die Onetribe gebruikt om servers op te zetten en databases te runnen zijn Laravel herd, DBengine en tableplus. Dit heb ik werkend kunnen krijgen met wat hulp voor het project Oba leef en leer waarvoor dit nodig was. Een tijdje later moest ik de rijke noordzee opzetten hiermee maar dat lukte niet zelfstandig. Uiteindelijk heb ik hier de hulp van Raoul voor gekregen. Maar Raoul gebruikt ddev (docker) en dat maakt twee docker containers voor de database en craft (cms). Uiteindelijk werkte dat voor de rijke noordzee maar bleek later dat laravel herd het niet meer deed, dit heb ik ook niet meer aan de praat gekregen met hulp van meerdere mensen. 
 
-  Alles in de env moet goed staan.
-  Craft moet eerst runnen want anders kan je de fe niet builden want nuxt voert queries uit om te kijken of alles kan wat die wilt doen en als dat niet kan gaat er iets niet goed. 
+  Uiteindelijk heb ik alle projecten daarna draaiend gekregen met ddev, niet alleen, vaak met hulp. Dit kwam omdat ik dan tegen errors kwam waarvan ik niet wist hoe ik die kon oplossen. Hierdoor heb ik de stappen en benodigdheden vaak kunnen observeren en onthouden. En uiteindelijk had ik geen hulp meer nodig. De dingen waar ik op moet letten als ik een project op start zijn:
 
-  Nuxt draait op localhost nadat die is gebuild. 
+  - Alles in de env moet goed staan.
+  - Craft moet eerst runnen want anders kan je de fe niet builden want nuxt voert queries uit om te kijken of alles kan wat die wilt doen en als dat niet kan gaat er iets niet goed. 
+  - Je moet een database krijgen van je collega's anders kan de code niks vinden. 
 
-  Craft kan headless maar hoeft niet. Headless: draait op een andere server. Kunnen elkaar wel bereiken, andere url.
+  <!-- verdere feitjes: Nuxt draait op localhost nadat die is gebuild. 
+  Craft kan headless maar hoeft niet. Headless: draait op een andere server. Kunnen elkaar wel bereiken, andere url. -->
 
   <!-- // TODO [Tekening maken] -->
+
+  **Plug-in installeren in craft (cms)**
 
   Uiteindelijk moest ik een andere dag een plugin installeren in craft. Deze plugin zou moeten zorgen voor extra beveiliging wanneer je een wachtwoord aanmaakt. 
   Het project draaide al lokaal en na de documentatie te lezen probeerde ik de plugin te installeren. Dit lukte niet in een keer, ik wist niet precies waar ik het commando moest draaien en ik had wat database connection errors. Na een poos de containers uit docker uit te hebben gezet en weer aan te hebben gezet deed het commando het opeens wel. Dit had ik gepushed, maar zag dat niet alle files nodig waren om te committen. Ik had wat changes verwijderd maar raakte verstrikt tussen de verschillende versies van mijn branch en craft, ook na het opnieuw bouwen van het cms en de yaml files gelijk trekken zeurde het cms over changes die waren gemaakt in de database. Dat betekende maar een ding en dat was het project nuken en opnieuw bouwen. 
   Dit was een goede oefening om weer het proces van een project opzetten te doorlopen en lukte meteen. Mijn stappen waren dit:
+
   ```
   $ make nuke
   $ ddev import-db --file=./oba-leef-en-leef.sql #importeer de database die ik aan het begin van de stage had gekregen. Deze heeft nog niet de changes van mijn geinstalleerde plugin. 
@@ -218,6 +256,8 @@ Hierbij heb ik heel veel geleerd over de techniek die onetribe gebruikt voor hun
   Password: 
   Password should be at least 16 characters.
   ```
+
+  **Andere projecten**
 
   Alle projecten die ik daarna heb opgestart gingen veel vlotter dan daarvoor. Het meeste waar ik nog tegenaan liep was dat de `.env` variabelen niet goed stonden. Hier heb ik de andere keren extra op gelet en naar gekeken. Zo was er bijvoorbeeld redis toegevoegd door de backend developer in het patienten federatie project die ik al draaiend had gekregen op mijn computer. Maar de nieuwe changes zorgde ervoor dat het het niet meer deed. Na wat research en de error meldingen te hebben gelezen kwam ik er achter welke variabelen en files ik miste. Dit waren de `docker-compose.redis.yaml` (die stond in de `.gitignore`), de redis variabelen in de `.env` en ik moest redis op mijn computer nog installeren. Na wat experimenteren zorgde `REDIS_HOST=host.docker.internal` in de .env er uiteindelijk voor dat de redis DB connectie geopend kon worden.   
 
@@ -280,6 +320,8 @@ Ook werd er discussie gevoerd over bepaalde beslissingen met betreft opzet CMS o
 ## Reflectie
 
 ## Bijlagen
+
+<!-- [Logboek] -->
 
 
 
