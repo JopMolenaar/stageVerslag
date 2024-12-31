@@ -30,10 +30,12 @@ Het team waarin ik kom te werken zijn vooral andere developers, designers, UX’
 
 ## Werkzaamheden
 
-<!-- wat heb je concreet gedaan. Een uitgebreide beschrijving van de
+<!-- 
+Wat heb je concreet gedaan. Een uitgebreide beschrijving van de
 jouw werkzaamheden en van jouw gemaakte beroepsproducten. Laat afbeeldingen
 zien van wat je hebt gemaakt en het proces erachter. TIP: Gebruik hierbij het logboek
-dat je tijdens je stage hebt bijgehouden -->
+dat je tijdens je stage hebt bijgehouden.
+-->
 
 Ik heb tijdens mijn stage meegewerkt aan meerdere projecten waaronder ....
 Op deze projecten maakte ik features, loste ik bugs op, ..., ... en nog veel meer met behulp van het nuxt/vue framework maar ook .twig, typescript, en andere tools.
@@ -42,23 +44,47 @@ Hierbij heb ik heel veel geleerd over de techniek die onetribe gebruikt voor hun
 
 ## Leerdoelen
 
+<!-- 
+In je stageplan heb je leerdoelen beschreven binnen je gekozen
+competenties, reflecteer op je ontwikkeling aan de hand van je leerdoelen uit je
+stageplan en hoe je je ontwikkeld hebt sindsdien. Wat zijn je belangrijkste leerpunten
+van deze stage? En hoe heb je aangetoond dat je je leerdoelen hebt behaald. Geef
+voorbeelden uit de projecten waar je aan gewerkt hebt. 
+-->
+
   ### Samen ontwerpen
 
-  - Standups bijgewoond
+  **CMD’ers betrekken teamleden, gebruikers, domeinexperts en belanghebbenden in het ontwerp. Ze begrijpen de verhoudingen en zorgen dat iedereen zich gehoord voelt in het proces.**
+
+  Tijdens mijn stage bij Onetribe heb ik veel kunnen samenwerken met verschillende stakeholders binnen een team. Aan het begin werd ik op een project genaamd Peakz padel gezet, dat in zijn laatste development fase zat voor de officiele livegang. Wat voor mij meteen nieuw was was het samenwerken met verschillende project managers (voor development, klantcontact, externe partijen contact), designers, backend developers, developers en lead developers. Ook begon ik hier een nieuw framework te leren en heb ik veel feedback gekregen. 
+
+  Aan het begin hadden we soms een standup maar naarmate het eind in zicht kwam werd dit iedere dag een standup waar de progressie even kort werd besproken. 
+
   - Communicatie naar pm'ers / klant / developers
+
+
+<!-- TODO langs logboek gaan en per punt (grote punten) even opschrijven wat ik ervan heb geleerd -->
+
+
   - Meetings pfed {start project}
-  - ...
 
   Feedback verwerkt:
-  Gedachten gangen: 
+  Gedachten gangen:
+  Feedback gegeven:
+  Hoe ik mijn communicatieve vaardigheden heb proberen te verbeteren:
+  Reflectie:
 
   ### Prototypen en uitwerken
 
-  - Peakz features
+  **CMD’ers zijn in staat om concepten vorm te geven en te concretiseren in prototypes. Ze kunnen hun ontwerp inpassen in geldende standaarden en het productportfolio van het bedrijf.**
+
+<!-- TODO langs logboek gaan en per punt (grote punten) even opschrijven wat ik ervan heb geleerd -->
+
+  - Peakz features 
   - De rijke noordzee features
   - Logica Vista
   - Oba features
-  - {soon} Blokken bouwen pfed
+  - Blokken bouwen pfed
 
   - Veel projecten opgezet
   - Nieuwe systemen gebruikt
@@ -69,11 +95,15 @@ Hierbij heb ik heel veel geleerd over de techniek die onetribe gebruikt voor hun
 
   ### Evalueren
 
+  **CMD’ers zijn in staat resultaten, die tijdens verschillende stadia van het ontwerpproces ontstaan, herhaaldelijk te toetsen op hun waarde en belang voor gebruikers, stakeholders en maatschappij.**
+
   - Week 5 dag 2: pre filled in form links voor PEAKZ (3 keer de code geevalueerd en verbeterd)
   - Week 7 dag 1: Aspect ratio videos uit data voor PEAKZ (ook meerdere keren  geevalueerd en verbeterd)
   - Week 7 dag 5: Code geevalueerd en bedacht dat het hier handig zou zijn om comments toe te voegen. 
 
   ### Oriënteren en begrijpen
+
+  **CMD’ers kunnen de context van het probleem, de wens van de gebruiker, doelstelling van de opdrachtgever, de belangen van belanghebbenden en de mogelijkheden van de technologie in kaart brengen en begrijpen.**
 
   - Week 1 dag 3
   - Week 3 dag 3
@@ -89,6 +119,8 @@ Hierbij heb ik heel veel geleerd over de techniek die onetribe gebruikt voor hun
 
   ### Verbeelden en conceptualiseren
 
+  **CMD’ers bedenken ideeën en ontwikkelen concepten voor digitale interactieve producten, diensten, en belevingen. Ze vinden nieuwe wegen om tegemoet te komen aan wensen van gebruikers, doelstellingen van de opdrachtgever en andere belangen.**
+
   - Week 1 dag 3: stukje typescript schrijven, na wat evalueren de javascript achtige code meer naar typescript geschreven, code die er al was herbruikt, en zag dat de code hierdoor een aantal code duplication kreeg, ik verzon hiervoor een oplossing maar wilde eerst vragen aan mijn collega developer of er geen helper functies hiervoor zouden moeten worden gemaakt. Antwoord: ja dat kan, is niet nodig voor deze sprint.
   - Week 4 dag 4: Meerdere oplossingen voorgesteld over een te lange button met je eigen naam die naar je account gaat op de PEAKZ website.
   - Week 5 dag 2: Ik had een oplossing bedacht voor de pre filled form links, en liet Wiebe dat zien. Wiebe zei dat dit ook te snappen zou moeten zijn voor de klant (aangezien content beheerders ook dingen in het cms veranderen, en als er dan een nieuw formulier komt moet de content beheerder deze stappen doorlopen zondar dat die enig verstand heeft van url's enzo) Ik evalueerde mijn oplossing en zag dat de oplossing voor de meeste zeker te snappen is, maar niet voor iedereen. Ik legde het uit aan de pm'er aangezien een betere oplossing tijd zou kosten. De pm'er vond de oplossing te snappen en goed genoeg, er moet desnoods een beetje documentatie bij van 2 regels. 
@@ -100,6 +132,8 @@ Hierbij heb ik heel veel geleerd over de techniek die onetribe gebruikt voor hun
   ### Werkwijzen Onetribe
 
   Aangezien Onetribe gefuseerd is met noprotocol hebben ze nu nog meerdere werk-omgevingen en manieren voor de versie beheer. Ik dacht eerst dat er meerdere manier waren maar uiteindelijk kwam ik erachter dat ze allemaal de git flow manier willen aanhouden. Hierbij wordt de versie van je applicatie automatisch geupdate aan de hand van wat je in je commit messages zet. Ook worden de branches automatisch in een map geordend aan de hand van wat je voor je branch zet. Naast git flow heb ik ook geleerd dat ze de commit messages in voltooide tijd schrijven, dit is handig want dan leest diegene die het reviewed wat die changes gaan doen en niet wat ze al gedaan hebben, want dat is niet zo. 
+
+  ...
 
   #### Git flow
 
@@ -200,9 +234,32 @@ Hierbij heb ik heel veel geleerd over de techniek die onetribe gebruikt voor hun
   - v-if en v-for 
   ```js
   <component
-      v-if="ditIsEenProp" v-for="nestedGroup in groups"
+    v-if="ditIsEenProp" v-for="nestedGroup in groups"
   >
   ```
+
+  - v-html
+  - slot
+
+  ```html
+    <slot name="search-results" />
+  ```
+
+  en in het component erboven:
+
+  ```html
+    <template 
+          #search-results
+        >
+          <ais-hits>
+            <template #item="{ item }">
+              <search-hits-item-learning-materials :item="item" />
+            </template>
+          </ais-hits>
+    </template>
+  ```
+
+  Wat makkelijk hieraan is is dat je veel overzicht kan behouden in een file qua wat er allemaal in zit. Maar de logica en styling staat op het component zelf. Ook kan je op verschillende pagina's het component search results gebruiken terwijl je er andere dingen in kan zetten per pagina. Dit scheelt logica in het component zelf. 
 
   #### Opzetten projecten 
 
@@ -261,7 +318,25 @@ Hierbij heb ik heel veel geleerd over de techniek die onetribe gebruikt voor hun
 
   Alle projecten die ik daarna heb opgestart gingen veel vlotter dan daarvoor. Het meeste waar ik nog tegenaan liep was dat de `.env` variabelen niet goed stonden. Hier heb ik de andere keren extra op gelet en naar gekeken. Zo was er bijvoorbeeld redis toegevoegd door de backend developer in het patienten federatie project die ik al draaiend had gekregen op mijn computer. Maar de nieuwe changes zorgde ervoor dat het het niet meer deed. Na wat research en de error meldingen te hebben gelezen kwam ik er achter welke variabelen en files ik miste. Dit waren de `docker-compose.redis.yaml` (die stond in de `.gitignore`), de redis variabelen in de `.env` en ik moest redis op mijn computer nog installeren. Na wat experimenteren zorgde `REDIS_HOST=host.docker.internal` in de .env er uiteindelijk voor dat de redis DB connectie geopend kon worden.   
 
+  #### Samenwerking met design
+
+  Halverwege mijn stage ben ik fulltime op Patientenfederatie gezet om de content blokken te templaten en te stylen. Het idee achter dit project was dat er blokken zouden worden gebouwd en dat de klant in het cms zelf de pagina's kan samenstellen. Dit zou ik moeten doen in twig en stylen met tailwind and tailgrids. Dit zou ook zijn gebruikt in figma. Al snel kwam ik erachter dat tailgrids components kopieren en aanpassen naar het design voor de developers niet echt handig was. De figma blokken verschilde te veel van de tailgrids blokken waardoor ik alles moest verwijderen en eigen styling moest toevoegen. Ook waren veel blokken met position absolute gestyled waardoor het niet repsonisive was als je elementen uit de blokken haalde. 
+
+  Het opzetten van de tailwind.config hebben we vooral gedaan met de aparte figma tabs zoals typography en colors. Maar uiteindelijk bleek dat het design van de homepagina daar niet helemaal op aansloot. Dit zorgde alsnog voor extra typografie styling op de html elementen. 
+
+  Na wat design meetings, af en toe design changes vanuit de klant (want dit proces was nog bezig) hadden we een meeting waar verschillende stakeholders verschillende gedachtes bij hadden. We hadden al eerder een design check meeting gehad waar de eerste opzet werd bekeken. En deze meeting dacht ik dat er iets meer op de styling zou worden gelet, maar nog niet helemaal pixel perfect (altans hier was ik nog niet helemaal mee klaar). Dit bleek niet zo te zijn. Uitieindelijk werd de meeting als een wakeup call beschouwd en gingen Colin en ik alles nog drie keer zouden checken en styling fixen. Nadat ik alle values vanuit het rechter menu had overgenomen en soms logica moest toevoegen omdat het op hetzelfde blok was maar net iets andere versies waren, legde ik de screenshot van de webpagina en het figma design over elkaar. En kwam ik erachter dat deze values uit het rechter menu soms niet eens overeen komen met hoe het blok was opgebouwd. 
+
+  Nadat ik deze info wist heb ik met option steeds moeten inspecteren hoeveel px de padding bijvoorbeeld was.
+
+  Tijdens de sprint retrospective hebben we dit ook benoemd en dit wordt als het goed is meegenomen in de retrospective van design. Waadoor de samenwerking tussen development en design verbeterd kan worden, want daar zijn nog wel wat verbeter puntjes. 
+
 ## Observatieopdrachten
+
+<!--
+Beschrijf kort welke observatieopdrachten je hebt
+uitgevoerd. (denk aan het documentje Observatieopdrachten). Geef aan wat je hebt
+geleerd en hoe dit heeft geholpen bij het behalen van je leerdoelen. 
+-->
 
 Voor de drie observatieopdrachten wilde ik onder andere stand-ups bijwonen, een livegang bijwonen en een kick-off/ start development proces van een project bijwonen. Dit is allemaal gelukt. 
 
@@ -317,11 +392,45 @@ Ook werd er discussie gevoerd over bepaalde beslissingen met betreft opzet CMS o
 
 ## Analyse feedbackformulieren 
 
+<!-- 
+Maak een analyse gebaseerd op de je
+functioneringsgesprek en de feedbackformulieren van halverwege en het einde van
+je stage. Wat valt je op? Hoe kijk je aan het einde van de stage terug naar je stageplan
+en het functioneringsgesprek halverwege? 
+-->
+
+
 ## Reflectie
+
+<!-- 
+Wat ging er goed of beter dan verwacht? Welke dingen had je anders willen aanpakken?
+Wat zijn je eigen kwaliteiten en beperkingen? Wat betekent de opgedane ervaring tijdens
+de stage voor je eigen beroepsperspectief? Kijk hiervoor ook terug naar de
+ontwikkelingsevaluatie 
+-->
 
 ## Bijlagen
 
-<!-- [Logboek] -->
+<!-- 
+- Je stageplan
+- Alle feedbackformulieren, dus die van het tussentijdse gesprek en die van het eindgesprek
+- Eventueel in detail beschreven (deel)producten die je hebt gemaakt.
+- Eventuele andere verslagen van vergaderingen, interviews, observaties of anderszins
+- relevante stukken. Omvang: ca. 20-25 pagina’s exclusief de bijlagen. Let op dat je beknopt en bondig schrijft en maak goed onderscheid tussen wat bij je verslag hoort en wat een bijlage is.
+
+(Een bijlage is een aanhangsel aan het originele werk waarin je informatie vindt die
+ondersteunend is maar in de hoofdtekst te veel zou afleiden.)
+-->
+
+<!-- [Logboek] ? -->
+
+
+
+
+
+
+
+
 
 
 
