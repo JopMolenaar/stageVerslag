@@ -73,16 +73,29 @@ voorbeelden uit de projecten waar je aan gewerkt hebt.
 
   Verder heb ik kunnen focusen op communicatie tussen developers en tussen developers en pmers. Tussen de communicatie tussen developers en pmrs heb ik geleerd dat je duidelijk moet zijn over de status, recht toe recht aan in de communicatie en niet in detail treden op technische dingen. Een beetje kan wel maar niet te veel. Ook communicatie tussendoor is handig, tickets in jira goed up to date houden en meteen iets melden of vragen als je ergens tegen aanloopt waar extra informatie of dingen voor nodig zijn. 
 
+  #### Samenwerking met design
+
+  Halverwege mijn stage ben ik fulltime op Patientenfederatie gezet om de content blokken te templaten en te stylen. Het idee achter dit project was dat er blokken zouden worden gebouwd en dat de klant in het cms zelf de pagina's kan samenstellen. Dit zou ik moeten doen in twig en stylen met tailwind and tailgrids. Dit zou ook zijn gebruikt in figma. Al snel kwam ik erachter dat tailgrids components kopieren en aanpassen naar het design voor de developers niet echt handig was. De figma blokken verschilde te veel van de tailgrids blokken waardoor ik alles moest verwijderen en eigen styling moest toevoegen. Ook waren veel blokken met position absolute gestyled waardoor het niet repsonisive was als je elementen uit de blokken haalde. 
+
+  Het opzetten van de tailwind.config hebben we vooral gedaan met de aparte figma tabs zoals typography en colors. Maar uiteindelijk bleek dat het design van de homepagina daar niet helemaal op aansloot. Dit zorgde alsnog voor extra typografie styling op de html elementen. 
+
+  Na wat design meetings, af en toe design changes vanuit de klant (want dit proces was nog bezig) hadden we een meeting waar verschillende stakeholders verschillende gedachtes bij hadden. We hadden al eerder een design check meeting gehad waar de eerste opzet werd bekeken. En deze meeting dacht ik dat er iets meer op de styling zou worden gelet, maar nog niet helemaal pixel perfect (altans hier was ik nog niet helemaal mee klaar). Dit bleek niet zo te zijn. Uitieindelijk werd de meeting als een wakeup call beschouwd en gingen Colin en ik alles nog drie keer zouden checken en styling fixen. Nadat ik alle values vanuit het rechter menu had overgenomen en soms logica moest toevoegen omdat het op hetzelfde blok was maar net iets andere versies waren, legde ik de screenshot van de webpagina en het figma design over elkaar. En kwam ik erachter dat deze values uit het rechter menu soms niet eens overeen komen met hoe het blok was opgebouwd. 
+
+  Nadat ik deze info wist heb ik met option steeds moeten inspecteren hoeveel px de padding bijvoorbeeld was.
+
+  Tijdens de sprint retrospective hebben we dit ook benoemd en dit wordt als het goed is meegenomen in de retrospective van design. Waadoor de samenwerking tussen development en design verbeterd kan worden, want daar zijn nog wel wat verbeter puntjes. 
+
+
 <!-- TODO langs logboek gaan en per punt (grote punten) even opschrijven wat ik ervan heb geleerd -->
 
   ### Prototypen en uitwerken
 
   **CMD’ers zijn in staat om concepten vorm te geven en te concretiseren in prototypes. Ze kunnen hun ontwerp inpassen in geldende standaarden en het productportfolio van het bedrijf.**
 
-  Tijdens mijn stage bij Onetribe heb ik op veel projecten mee mogen draaien op het gebied van front-end development. 
+  Tijdens mijn stage bij Onetribe heb ik op veel projecten mee mogen draaien op het gebied van front-end development. Hier heb ik
 
 <!-- TODO langs logboek gaan en per punt (grote punten) even opschrijven wat ik ervan heb geleerd -->
-
+<!-- TODO veel te vinden in werkwijzen onetribe -->
   - Peakz features 
   - De rijke noordzee features
   - Logica Vista
@@ -92,49 +105,6 @@ voorbeelden uit de projecten waar je aan gewerkt hebt.
   - Veel projecten opgezet - dit ging steeds soepeler en gaf mij een beter begrip hoe een website kan op worden gezet, hoe ik zon website kan herkennen, wat je nodig hebt om websites makkelijk op te kunnen zetten. Hoe zon bedrijf proces er uit ziet en welke omgevingen daarvoor worden opgezet en bestaan. 
   - Nieuwe systemen gebruikt -> Jira, pagespeed, browserstack, bitbucket ...
   - Releases gedaan volgens de stappen van onetribe.
-
-  ### Evalueren
-
-  **CMD’ers zijn in staat resultaten, die tijdens verschillende stadia van het ontwerpproces ontstaan, herhaaldelijk te toetsen op hun waarde en belang voor gebruikers, stakeholders en maatschappij.**
-
-  - Week 5 dag 2: pre filled in form links voor PEAKZ (3 keer de code geevalueerd en verbeterd)
-  - Week 7 dag 1: Aspect ratio videos uit data voor PEAKZ (ook meerdere keren  geevalueerd en verbeterd)
-  - Week 7 dag 5: Code geevalueerd en bedacht dat het hier handig zou zijn om comments toe te voegen. 
-
-  ### Oriënteren en begrijpen
-
-  **CMD’ers kunnen de context van het probleem, de wens van de gebruiker, doelstelling van de opdrachtgever, de belangen van belanghebbenden en de mogelijkheden van de technologie in kaart brengen en begrijpen.**
-
-  - Week 1 dag 3
-  - Week 3 dag 3
-  - Week 4 dag 4
-  - Week 5 dag 2
-  - Week 5 dag 3
-  - Week 6 dag 4
-  - Week 7 dag 2
-  - Week 7 dag 5
-  - Week 8 dag 1
-
-  (Onderzoek naar craft, tailgrids, twig, vue + nuxt, logica vista)
-
-  ### Verbeelden en conceptualiseren
-
-  **CMD’ers bedenken ideeën en ontwikkelen concepten voor digitale interactieve producten, diensten, en belevingen. Ze vinden nieuwe wegen om tegemoet te komen aan wensen van gebruikers, doelstellingen van de opdrachtgever en andere belangen.**
-
-  - Week 1 dag 3: stukje typescript schrijven, na wat evalueren de javascript achtige code meer naar typescript geschreven, code die er al was herbruikt, en zag dat de code hierdoor een aantal code duplication kreeg, ik verzon hiervoor een oplossing maar wilde eerst vragen aan mijn collega developer of er geen helper functies hiervoor zouden moeten worden gemaakt. Antwoord: ja dat kan, is niet nodig voor deze sprint.
-  - Week 4 dag 4: Meerdere oplossingen voorgesteld over een te lange button met je eigen naam die naar je account gaat op de PEAKZ website.
-  - Week 5 dag 2: Ik had een oplossing bedacht voor de pre filled form links, en liet Wiebe dat zien. Wiebe zei dat dit ook te snappen zou moeten zijn voor de klant (aangezien content beheerders ook dingen in het cms veranderen, en als er dan een nieuw formulier komt moet de content beheerder deze stappen doorlopen zondar dat die enig verstand heeft van url's enzo) Ik evalueerde mijn oplossing en zag dat de oplossing voor de meeste zeker te snappen is, maar niet voor iedereen. Ik legde het uit aan de pm'er aangezien een betere oplossing tijd zou kosten. De pm'er vond de oplossing te snappen en goed genoeg, er moet desnoods een beetje documentatie bij van 2 regels. 
-  - Week 6 dag 4:
-  - Week 7 dag 5: Filter opties uitzetten voor oba leef en leer, en dit mooi afmaken met user friendly oplossingen na er kritisch naar hebben gekeken. 
-  - Week 8 dag 1: 
-  - Week 9: vista logica (kritisch naar het formulier gekeken en features erbij gebouwd die nog niet bestonden zoals: extra lagen toevoegen aan het formulier en velden kunnen tonen, de extra velden kunnen valideren (voor meerdere types in de diepere lagen), geneste antwoorden kunnen verwijderen als je een lag erboven iets veranderd, error meldingen voor die geneste velden kunnen laten zien, ) ook nog de code geoptimaliseerd.
-
-<!-- Veel overlap met prototypen en uitwerken -->
-  ### Werkwijzen Onetribe
-
-  Aangezien Onetribe gefuseerd is met noprotocol hebben ze nu nog meerdere werk-omgevingen en manieren voor de versie beheer. Ik dacht eerst dat er meerdere manier waren maar uiteindelijk kwam ik erachter dat ze allemaal de git flow manier willen aanhouden. Hierbij wordt de versie van je applicatie automatisch geupdate aan de hand van wat je in je commit messages zet. Ook worden de branches automatisch in een map geordend aan de hand van wat je voor je branch zet. Naast git flow heb ik ook geleerd dat ze de commit messages in voltooide tijd schrijven, dit is handig want dan leest diegene die het reviewed wat die changes gaan doen en niet wat ze al gedaan hebben, want dat is niet zo. 
-
-  ...
 
   #### Git flow
 
@@ -319,17 +289,60 @@ voorbeelden uit de projecten waar je aan gewerkt hebt.
 
   Alle projecten die ik daarna heb opgestart gingen veel vlotter dan daarvoor. Het meeste waar ik nog tegenaan liep was dat de `.env` variabelen niet goed stonden. Hier heb ik de andere keren extra op gelet en naar gekeken. Zo was er bijvoorbeeld redis toegevoegd door de backend developer in het patienten federatie project die ik al draaiend had gekregen op mijn computer. Maar de nieuwe changes zorgde ervoor dat het het niet meer deed. Na wat research en de error meldingen te hebben gelezen kwam ik er achter welke variabelen en files ik miste. Dit waren de `docker-compose.redis.yaml` (die stond in de `.gitignore`), de redis variabelen in de `.env` en ik moest redis op mijn computer nog installeren. Na wat experimenteren zorgde `REDIS_HOST=host.docker.internal` in de .env er uiteindelijk voor dat de redis DB connectie geopend kon worden.   
 
-  #### Samenwerking met design
 
-  Halverwege mijn stage ben ik fulltime op Patientenfederatie gezet om de content blokken te templaten en te stylen. Het idee achter dit project was dat er blokken zouden worden gebouwd en dat de klant in het cms zelf de pagina's kan samenstellen. Dit zou ik moeten doen in twig en stylen met tailwind and tailgrids. Dit zou ook zijn gebruikt in figma. Al snel kwam ik erachter dat tailgrids components kopieren en aanpassen naar het design voor de developers niet echt handig was. De figma blokken verschilde te veel van de tailgrids blokken waardoor ik alles moest verwijderen en eigen styling moest toevoegen. Ook waren veel blokken met position absolute gestyled waardoor het niet repsonisive was als je elementen uit de blokken haalde. 
+  ### Evalueren
 
-  Het opzetten van de tailwind.config hebben we vooral gedaan met de aparte figma tabs zoals typography en colors. Maar uiteindelijk bleek dat het design van de homepagina daar niet helemaal op aansloot. Dit zorgde alsnog voor extra typografie styling op de html elementen. 
+  **CMD’ers zijn in staat resultaten, die tijdens verschillende stadia van het ontwerpproces ontstaan, herhaaldelijk te toetsen op hun waarde en belang voor gebruikers, stakeholders en maatschappij.**
 
-  Na wat design meetings, af en toe design changes vanuit de klant (want dit proces was nog bezig) hadden we een meeting waar verschillende stakeholders verschillende gedachtes bij hadden. We hadden al eerder een design check meeting gehad waar de eerste opzet werd bekeken. En deze meeting dacht ik dat er iets meer op de styling zou worden gelet, maar nog niet helemaal pixel perfect (altans hier was ik nog niet helemaal mee klaar). Dit bleek niet zo te zijn. Uitieindelijk werd de meeting als een wakeup call beschouwd en gingen Colin en ik alles nog drie keer zouden checken en styling fixen. Nadat ik alle values vanuit het rechter menu had overgenomen en soms logica moest toevoegen omdat het op hetzelfde blok was maar net iets andere versies waren, legde ik de screenshot van de webpagina en het figma design over elkaar. En kwam ik erachter dat deze values uit het rechter menu soms niet eens overeen komen met hoe het blok was opgebouwd. 
+  - Week 5 dag 2: pre filled in form links voor PEAKZ (3 keer de code geevalueerd en verbeterd)
+  - Week 7 dag 1: Aspect ratio videos uit data voor PEAKZ (ook meerdere keren  geevalueerd en verbeterd)
+  - Week 7 dag 5: Code geevalueerd en bedacht dat het hier handig zou zijn om comments toe te voegen. 
+  - Week 13 dag 3: Door staging gelopen en styling foutjes er nog even uitgehaald voor PFED
+  -  Week 14 dag 1: Start dev sprint 4, 2de retrospective gedaan voor dit project. Hier hebben we weer feedback gegeven en gekregen. Qua feedback dat ik kreeg is dat ik soms nog iets te veel nest in de twig. En verder gewoon volgende blokken extra goed meteen op de design letten en pixel perfect werken. Design zat niet bij deze meeting maar hierover hebben we we een aantal dingen gezegd wat ons leven van de developers het een stuk makkelijker maakt volgende projecten. Ze moeten in figma in branches gaan werken. Minder design tabs. Consistent in components werken. Alle values via de values invullen en niet soms slepen enzo. Overzichtelijke pagina’s met alle values. Semantisch werken (basis html structuur kennis is handig)  
+  - Week 14 dag 4: rss feed testen en evalueren
+  - Week 14 dag 5: RSS feed verder blokken gemapt (manieren verbeterd in de macros zodat de code sneller en overzichtelijker is), tijdens het maken van een andere feature kwam nog best veel dingen tegen op de website waar we nog even naar moesten kijken qua styling. Dit heb ik opgeschreven. 
 
-  Nadat ik deze info wist heb ik met option steeds moeten inspecteren hoeveel px de padding bijvoorbeeld was.
+  ### Oriënteren en begrijpen
 
-  Tijdens de sprint retrospective hebben we dit ook benoemd en dit wordt als het goed is meegenomen in de retrospective van design. Waadoor de samenwerking tussen development en design verbeterd kan worden, want daar zijn nog wel wat verbeter puntjes. 
+  **CMD’ers kunnen de context van het probleem, de wens van de gebruiker, doelstelling van de opdrachtgever, de belangen van belanghebbenden en de mogelijkheden van de technologie in kaart brengen en begrijpen.**
+
+  - Week 1 dag 3: Javascript achtige oplossing herschreven naar een meer nuxt oplossing voor peakz.
+  - Week 3 dag 3: Opmerking gemaakt en kritisch gekeken naar hoe er middleware werd gebruikt in oba leef en leer en dat het netter wat zoals peakz het deed. 
+  - Week 4 dag 4: Met de standup erover gehad wat er moest gebeuren met de duitse header en de overflowende account button. Hiervoor heb ik meerdere dingen voor voorgesteld zoals alleen de voornaam tonen of bijvoorbeeld met ellipsis de naam afkappen aan de hand van hoeveel ruimte die nog heeft.
+  - Week 5 dag 2: Webflow slider gefixed na wat onderzoek naar de slider in webflow. (nog nooit mee gewerkt) (Voor collega)
+  - Week 5 dag 3: Peakz onderzoek gedaan om de data in notion te kunnen krijgen.
+  - Week 6 dag 4: Email handtekening helpen voor collega, embed video veld toevoegen in craft zodat de gebruiker videos kan toevoegen. (rijke noordzee)
+  - Week 7 dag 2: Onderzoek doen naar tailgrids 
+  - Week 7 dag 5: Voor oba leef en leer werkte een aantal dingen niet van externe partijen en om verwarring te voorkomen moest ik hier wat dingen aanpassen. Hier moest ik wat voor experimenteren om het met zo’n klein mogelijke en goede aanpassingen voor elkaar te krijgen. En dit is gelukt. CODE? FOTOS?
+  - Week 8 dag 1: Onderzoek gedaan naar twig en craft. 
+  - Week 13 dag 3: Door staging gelopen en styling foutjes er nog even uitgehaald en daarvan bepaalde oplossingen doorgevoerd en gevraagd aan Colin wat hij er van vindt. 
+  - Week 14 dag 2: Mobiele slider gemaakt. Gekozen voor css snap en extra javascript toegevoegd voor het targeten van de list items, en om de dots te highlighten als je scrollt. Dit werkt ook zonder javascript en geeft extra user experience features met javascript. 
+  - Week 14 dag 4: RSS feed onderzoek, hoe werkt het, wat is het, wat kunnen ze ermee en waar moet het aan voldoen. 
+  - Week 15 dag 1: kritisch gekeken naar de mobiele slider en aangepast zodat het zonder tailgrids werkt, altijd kan swipen met je vinger (ook op desktop) en dat het voor meerdere sliders op de pagina werkt. 
+
+
+  (Onderzoek naar craft, tailgrids, twig, vue + nuxt, logica vista)
+
+  ### Verbeelden en conceptualiseren
+
+  **CMD’ers bedenken ideeën en ontwikkelen concepten voor digitale interactieve producten, diensten, en belevingen. Ze vinden nieuwe wegen om tegemoet te komen aan wensen van gebruikers, doelstellingen van de opdrachtgever en andere belangen.**
+
+  - Week 1 dag 3: stukje typescript schrijven, na wat evalueren de javascript achtige code meer naar typescript geschreven, code die er al was herbruikt, en zag dat de code hierdoor een aantal code duplication kreeg, ik verzon hiervoor een oplossing maar wilde eerst vragen aan mijn collega developer of er geen helper functies hiervoor zouden moeten worden gemaakt. Antwoord: ja dat kan, is niet nodig voor deze sprint.
+  - Week 4 dag 4: Meerdere oplossingen voorgesteld over een te lange button met je eigen naam die naar je account gaat op de PEAKZ website.
+  - Week 5 dag 2: Ik had een oplossing bedacht voor de pre filled form links, en liet Wiebe dat zien. Wiebe zei dat dit ook te snappen zou moeten zijn voor de klant (aangezien content beheerders ook dingen in het cms veranderen, en als er dan een nieuw formulier komt moet de content beheerder deze stappen doorlopen zondar dat die enig verstand heeft van url's enzo) Ik evalueerde mijn oplossing en zag dat de oplossing voor de meeste zeker te snappen is, maar niet voor iedereen. Ik legde het uit aan de pm'er aangezien een betere oplossing tijd zou kosten. De pm'er vond de oplossing te snappen en goed genoeg, er moet desnoods een beetje documentatie bij van 2 regels. 
+  - Week 6 dag 4:
+  - Week 7 dag 5: Filter opties uitzetten voor oba leef en leer, en dit mooi afmaken met user friendly oplossingen na er kritisch naar hebben gekeken. 
+  - Week 8 dag 1: 
+  - Week 9: vista logica (kritisch naar het formulier gekeken en features erbij gebouwd die nog niet bestonden zoals: extra lagen toevoegen aan het formulier en velden kunnen tonen, de extra velden kunnen valideren (voor meerdere types in de diepere lagen), geneste antwoorden kunnen verwijderen als je een lag erboven iets veranderd, error meldingen voor die geneste velden kunnen laten zien, ) ook nog de code geoptimaliseerd.
+
+<!-- Veel overlap met prototypen en uitwerken -->
+  
+  
+  ### Werkwijzen Onetribe
+<!-- TODO dit is misschien meer over het bedrijf zelf? -->
+  Aangezien Onetribe gefuseerd is met noprotocol hebben ze nu nog meerdere werk-omgevingen en manieren voor de versie beheer. Ik dacht eerst dat er meerdere manier waren maar uiteindelijk kwam ik erachter dat ze allemaal de git flow manier willen aanhouden. Hierbij wordt de versie van je applicatie automatisch geupdate aan de hand van wat je in je commit messages zet. Ook worden de branches automatisch in een map geordend aan de hand van wat je voor je branch zet. Naast git flow heb ik ook geleerd dat ze de commit messages in voltooide tijd schrijven, dit is handig want dan leest diegene die het reviewed wat die changes gaan doen en niet wat ze al gedaan hebben, want dat is niet zo. 
+
+  ...
 
 ## Observatieopdrachten
 
