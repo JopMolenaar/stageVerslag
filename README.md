@@ -62,21 +62,24 @@ voorbeelden uit de projecten waar je aan gewerkt hebt.
 
   - Communicatie naar pm'ers / klant / developers
 
+  Ongeveer halverwege de stage mocht ik meewerken aan een project dat nog in de design fase zat maar alvast rustig naar de devlopment fase ging. Hier heb ik veel meetings van bij mogen wonen. Input geven in deze meetings vond ik lastig omdat dit allemaal nieuw was en ik niet precies wist wat het proces zou zijn. Naarmate ik meer informatie kreeg en ik dit kon plaatsten, kon ik ook meer input geven en specifieke vragen stellen. Dat dit lang duurde vond ik wel jammer want dit had wel veel vragen en problemen tussen development en design kunnen verminderen in de toekomst. Er bleken namelijk wel wat haken en ogen te zitten in het process van design dat moeilijkheden en onduidelijkheid zou opleveren. Namelijk bijvoorbeeld tailgrids en hoe dit werd gebruikt, versies van blokken, inconsistentie van dezelfde blokken op verschillende pagina's en soms onjuiste afmetingen uit de sidebar (de sidebar van figma als je een blok inspecteerd met de waardes van de padding en margin bijvoorbeeld.)
+
+  Halverwege kreeg ik ook feedback om meer te focussen op mijn communicatievaardigheden. Harder praten en meer input geven in meetings, meer initiatief nemen, vragen stellen en materiaal leveren om andermans werk, opdrachten of keuzes makkelijker kunnen worden gemaakt waardoor het nog fijner samenwerken is met mij. 
+  (verwerkt met bijvoorbeeld de testlinkjes, meer focussen op de statussen van jira tickets, andere developers vragen stellen met voorbeelden, ...)
+
+  Door aannames van development dat design alles volgens het boekje had gedaan en dat de opdracht voor development was om eerst ruig blokken te bouwen zodat de klant het kon invullen was (en daarna zwakte dat af naar wel pixel perfect werken), was de website niet pixel perfect toen design er naar ging kijken. De opdracht voor development toen was om het recht te trekken en letterlijk screenshots over elkaar te moeten doen om er vanuit te gaan dat het pixel perfect was. Nadat ik hiermee bezig was geweest heb ik zelfstandig meetings aangemaakt met de designer om er nog een keer door heen te gaan en het allemaal te checken. Dit heb ik gedaan doormiddel van het maken van testlinkjes van pagina's waar ik dezelfde content had ingevuld in het cms als in de figma. Dit gaf een veel beter beeld en gaf de mogelijkheid om de meeting gestructureerd en overzichtelijk te laten verlopen. Terwijl de designer er doorheen ging heb ik alle feedback punten op geschreven en dit later gemeld aan de pm'er en verwerkt. 
+
+  Terugblikkend op dit proces zou het veel soepeler zijn gegaan als ik dit allemaal had geweten en kon checken en kon inschatten. Maar ik heb hier in iedergeval veel van geleerd, met name met de samenwerking tussen devlopment en design. 
+
+  Verder heb ik kunnen focusen op communicatie tussen developers en tussen developers en pmers. Tussen de communicatie tussen developers en pmrs heb ik geleerd dat je duidelijk moet zijn over de status, recht toe recht aan in de communicatie en niet in detail treden op technische dingen. Een beetje kan wel maar niet te veel. Ook communicatie tussendoor is handig, tickets in jira goed up to date houden en meteen iets melden of vragen als je ergens tegen aanloopt waar extra informatie of dingen voor nodig zijn. 
 
 <!-- TODO langs logboek gaan en per punt (grote punten) even opschrijven wat ik ervan heb geleerd -->
-
-
-  - Meetings pfed {start project}
-
-  Feedback verwerkt:
-  Gedachten gangen:
-  Feedback gegeven:
-  Hoe ik mijn communicatieve vaardigheden heb proberen te verbeteren:
-  Reflectie:
 
   ### Prototypen en uitwerken
 
   **CMD’ers zijn in staat om concepten vorm te geven en te concretiseren in prototypes. Ze kunnen hun ontwerp inpassen in geldende standaarden en het productportfolio van het bedrijf.**
+
+  Tijdens mijn stage bij Onetribe heb ik op veel projecten mee mogen draaien op het gebied van front-end development. 
 
 <!-- TODO langs logboek gaan en per punt (grote punten) even opschrijven wat ik ervan heb geleerd -->
 
@@ -84,14 +87,11 @@ voorbeelden uit de projecten waar je aan gewerkt hebt.
   - De rijke noordzee features
   - Logica Vista
   - Oba features
-  - Blokken bouwen pfed
+  - Blokken bouwen pfed (en aanpassen blokken in cms aan de hand van hoe het gebruikt moet gaan worden door de klant)(edge cases testen)
 
-  - Veel projecten opgezet
-  - Nieuwe systemen gebruikt
-  - Releases gedaan
-
-  Feedback verwerkt:
-  Gedachten gangen: 
+  - Veel projecten opgezet - dit ging steeds soepeler en gaf mij een beter begrip hoe een website kan op worden gezet, hoe ik zon website kan herkennen, wat je nodig hebt om websites makkelijk op te kunnen zetten. Hoe zon bedrijf proces er uit ziet en welke omgevingen daarvoor worden opgezet en bestaan. 
+  - Nieuwe systemen gebruikt -> Jira, pagespeed, browserstack, bitbucket ...
+  - Releases gedaan volgens de stappen van onetribe.
 
   ### Evalueren
 
@@ -129,6 +129,7 @@ voorbeelden uit de projecten waar je aan gewerkt hebt.
   - Week 8 dag 1: 
   - Week 9: vista logica (kritisch naar het formulier gekeken en features erbij gebouwd die nog niet bestonden zoals: extra lagen toevoegen aan het formulier en velden kunnen tonen, de extra velden kunnen valideren (voor meerdere types in de diepere lagen), geneste antwoorden kunnen verwijderen als je een lag erboven iets veranderd, error meldingen voor die geneste velden kunnen laten zien, ) ook nog de code geoptimaliseerd.
 
+<!-- Veel overlap met prototypen en uitwerken -->
   ### Werkwijzen Onetribe
 
   Aangezien Onetribe gefuseerd is met noprotocol hebben ze nu nog meerdere werk-omgevingen en manieren voor de versie beheer. Ik dacht eerst dat er meerdere manier waren maar uiteindelijk kwam ik erachter dat ze allemaal de git flow manier willen aanhouden. Hierbij wordt de versie van je applicatie automatisch geupdate aan de hand van wat je in je commit messages zet. Ook worden de branches automatisch in een map geordend aan de hand van wat je voor je branch zet. Naast git flow heb ik ook geleerd dat ze de commit messages in voltooide tijd schrijven, dit is handig want dan leest diegene die het reviewed wat die changes gaan doen en niet wat ze al gedaan hebben, want dat is niet zo. 
