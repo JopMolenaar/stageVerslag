@@ -52,9 +52,20 @@ van deze stage? En hoe heb je aangetoond dat je je leerdoelen hebt behaald. Geef
 voorbeelden uit de projecten waar je aan gewerkt hebt. 
 -->
 
+<!-- Alle feedback tussen door: 
+
+-->
+
   ### Samen ontwerpen
 
   **CMD’ers betrekken teamleden, gebruikers, domeinexperts en belanghebbenden in het ontwerp. Ze begrijpen de verhoudingen en zorgen dat iedereen zich gehoord voelt in het proces.**
+
+  #### Mijn leerdoelen
+
+  Wat ik wil leren en doen tijdens mijn stage dat aansluit aan de competentie “Samen ontwerpen” is meewerken aan projecten in een multidisciplinair team. Dit betekent meedoen aan stand-ups, input geven, feedback vragen en geven en bijvoorbeeld werk van andere functies te gebruiken om zo mijn taken te kunnen doen. 
+  Ik ga ook vooral focussen en oefenen op communicatieve vaardigheden om de code goed over te kunnen brengen aan mensen die er niets of minder van weten dan ik. Dit helpt met mensen kunnen laten weten wat ik bijvoorbeeld heb gedaan en is bijvoorbeeld belangrijk voor klantencontact en stand ups met andere functies erbij. 
+
+  #### Uitwerking
 
   Tijdens mijn stage bij Onetribe heb ik veel kunnen samenwerken met verschillende stakeholders binnen een team. Aan het begin werd ik op een project genaamd Peakz padel gezet, dat in zijn laatste development fase zat voor de officiele livegang. Wat voor mij meteen nieuw was was het samenwerken met verschillende project managers (voor development, klantcontact, externe partijen contact), designers, backend developers, developers en lead developers. Ook begon ik hier een nieuw framework te leren en heb ik veel feedback gekregen. 
 
@@ -72,6 +83,11 @@ voorbeelden uit de projecten waar je aan gewerkt hebt.
   Terugblikkend op dit proces zou het veel soepeler zijn gegaan als ik dit allemaal had geweten en kon checken en kon inschatten. Maar ik heb hier in iedergeval veel van geleerd, met name met de samenwerking tussen devlopment en design. 
 
   Verder heb ik kunnen focusen op communicatie tussen developers en tussen developers en pmers. Tussen de communicatie tussen developers en pmrs heb ik geleerd dat je duidelijk moet zijn over de status, recht toe recht aan in de communicatie en niet in detail treden op technische dingen. Een beetje kan wel maar niet te veel. Ook communicatie tussendoor is handig, tickets in jira goed up to date houden en meteen iets melden of vragen als je ergens tegen aanloopt waar extra informatie of dingen voor nodig zijn. 
+
+  - Start dev sprint 4, 2de retrospective gedaan voor dit project. Hier hebben we weer feedback gegeven en gekregen. Qua feedback dat ik kreeg is dat ik soms nog iets te veel nest in de twig. En verder gewoon volgende blokken extra goed meteen op de design letten en pixel perfect werken. Design zat niet bij deze meeting maar hierover hebben we we een aantal dingen gezegd wat ons leven van de developers het een stuk makkelijker maakt volgende projecten. Ze moeten in figma in branches gaan werken. Minder design tabs. Consistent in components werken. Alle values via de values invullen en niet soms slepen enzo. Overzichtelijke pagina’s met alle values. Semantisch werken (basis html structuur kennis is handig)  
+
+  - Meeting development team over hoe we winstgevender kunnen zijn, processen kunnen verbeteren, minder afwijkende verwachtingen kunnen opleveren en de kwaliteit van de projecten kunnen waarborgen. Hier kwamen wel wat interessante punten uit zoals ons meer houden aan de gitflow, project branches omzetten naar een naam die overal wordt gebruikt. Code schoon houden. Uren rekenen om te bouwen + testen + deployen + laten reviewen. Ons meer houden aan wat er ingeplanned is i.p.v klusjes tussendoor. Reviewen op een bepaald tijdstip. 
+
 
   #### Samenwerking met design
 
@@ -91,6 +107,12 @@ voorbeelden uit de projecten waar je aan gewerkt hebt.
   ### Prototypen en uitwerken
 
   **CMD’ers zijn in staat om concepten vorm te geven en te concretiseren in prototypes. Ze kunnen hun ontwerp inpassen in geldende standaarden en het productportfolio van het bedrijf.**
+
+  #### Mijn leerdoelen
+
+  Wat ik wil leren en doen tijdens mijn stage dat aansluit aan de competentie “Prototypen en uitwerken” is meewerken aan projecten die gebruik maken van het voor mij nieuwe Vue.js/Nuxt.js framework. Hierbij pak ik issues op om bugs op te lossen en components of features te maken. 
+
+  #### Uitwerking
 
   Tijdens mijn stage bij Onetribe heb ik op veel projecten mee mogen draaien op het gebied van front-end development. Hier heb ik
 
@@ -294,6 +316,22 @@ voorbeelden uit de projecten waar je aan gewerkt hebt.
 
   **CMD’ers zijn in staat resultaten, die tijdens verschillende stadia van het ontwerpproces ontstaan, herhaaldelijk te toetsen op hun waarde en belang voor gebruikers, stakeholders en maatschappij.**
 
+  #### Mijn leerdoelen
+
+  Wat ik wil leren en doen tijdens mijn stage dat aansluit aan de competentie “Evalueren” is tijdens mijn werk steeds kritisch kijken naar mijn eigen werk en hiermee het product verbeteren of in goede kwaliteit houden. Ook wil ik issues kritisch evalueren met behulp van evaluatiemethoden en kijken hoe ikzelf en de code kan worden verbeterd. Ook wil ik feedback vragen op gemaakt werk.
+
+  #### Uitwerking
+
+-resultaten herhaaldelijk toetsen op: waarde + belang
+
+- (Begin process PFED) Kritisch gekeken naar het design om vragen en feedback te geven aan de designers. (Semantiek, foutjes, inconsistentie) (ander Font voor kleine tekstjes bijvoorbeeld)
+- pre filled in form links voor PEAKZ (3 keer de code geevalueerd en verbeterd)
+- Aspect ratio videos uit data voor PEAKZ (ook meerdere keren  geevalueerd en verbeterd)
+- RSS feed verder blokken gemapt (manieren verbeterd in de macros zodat de code sneller en overzichtelijker is), tijdens het maken van een andere feature kwam nog best veel dingen tegen op de website waar we nog even naar moesten kijken qua styling. Dit heb ik opgeschreven. 
+- (PFED midden) Styling foutjes uit staging gehaald
+- Verder altijd kritisch gekeken naar het product op bugs en foutjes, hier tickets voor aangemaakt en opgelost. 
+
+<!-- 
   - Week 5 dag 2: pre filled in form links voor PEAKZ (3 keer de code geevalueerd en verbeterd)
   - Week 7 dag 1: Aspect ratio videos uit data voor PEAKZ (ook meerdere keren  geevalueerd en verbeterd)
   - Week 7 dag 5: Code geevalueerd en bedacht dat het hier handig zou zijn om comments toe te voegen. 
@@ -301,10 +339,46 @@ voorbeelden uit de projecten waar je aan gewerkt hebt.
   -  Week 14 dag 1: Start dev sprint 4, 2de retrospective gedaan voor dit project. Hier hebben we weer feedback gegeven en gekregen. Qua feedback dat ik kreeg is dat ik soms nog iets te veel nest in de twig. En verder gewoon volgende blokken extra goed meteen op de design letten en pixel perfect werken. Design zat niet bij deze meeting maar hierover hebben we we een aantal dingen gezegd wat ons leven van de developers het een stuk makkelijker maakt volgende projecten. Ze moeten in figma in branches gaan werken. Minder design tabs. Consistent in components werken. Alle values via de values invullen en niet soms slepen enzo. Overzichtelijke pagina’s met alle values. Semantisch werken (basis html structuur kennis is handig)  
   - Week 14 dag 4: rss feed testen en evalueren
   - Week 14 dag 5: RSS feed verder blokken gemapt (manieren verbeterd in de macros zodat de code sneller en overzichtelijker is), tijdens het maken van een andere feature kwam nog best veel dingen tegen op de website waar we nog even naar moesten kijken qua styling. Dit heb ik opgeschreven. 
+ -->
 
   ### Oriënteren en begrijpen
 
   **CMD’ers kunnen de context van het probleem, de wens van de gebruiker, doelstelling van de opdrachtgever, de belangen van belanghebbenden en de mogelijkheden van de technologie in kaart brengen en begrijpen.**
+
+  #### Mijn leerdoelen
+
+  Wat ik wil leren en doen tijdens mijn stage dat aansluit aan de competentie “Oriënteren en begrijpen” zijn issues met de wens van de gebruiker en doel van de opdrachtgever te begrijpen en hiervoor een passende oplossing vinden, ook als ik al een oplossing heb gevonden blijf ik kijken of er een betere is om zo de kwaliteit van het product te verbeteren en mijn kennis te vergroten. 
+
+  #### Uitwerking
+
+  Tijdens mijn stage heb ik aan veel projecten gewerkt waar problemen en vraagstukken naar voren kwamen die ik kon oplossen. Door goed aan de opdrachtgever en gebruiker te denken heb ik voor veel een passende oplossing bedacht in de bijbehorende techniek op een nette manier. Ik heb bijvoorbeeld aan het begin van de stage een probleem moeten oplossen voor Oba leef en leer. Bij een filter optie op de website lukte het niet om op bepaalde filters te filteren. De website van Onetribe handelde alles goed af, maar het lag juist aan de service die werd gebruikt om te filteren. Die gaven namelijk geen goede url terug van de kaart met alle gefilterde locaties. Om verwarring voor de gebruiker te voorkomen heb ik in de code de betreffende filters uitgecommend (zodat dit niet opnieuw moet worden geschreven door een developer), en een comment erboven toegevoegd over waarom het is uitgecommend. 
+
+  Daarna heb ik nog wat aanpassingen gedaan zodat:
+
+  - De gebruiker niet verward raakt als er filters verdwijnen en nog in de url staan. 
+  - De kaart altijd resultaat krijgt ook al wordt een gebroken error gebruikt. 
+  - De gebruiker terug kan gaan naar zijn orginele filters op de andere pagina (geschiedenis onthouden)
+
+  Hier moest ik wat voor experimenteren om het met zo’n klein mogelijke en goede aanpassingen voor elkaar te krijgen. 
+
+  Uiteindelijk heb ik hiervoor een aparte functie gemaakt. Deze functie controleert of er andere filters in zitten die de map niet kan hendelen. Deze haalt hij er zo nodig uit. Daarna geeft hij de uiState weer terug. Echter had ik wel de oude uiState nodig om de geschiedenis te behouden. Dit heb ik in de updateUrlPath functie gewijzigd. 
+
+  Ook heb ik de functie gebruikt om de uiState te cleanen zodat het niet wordt gebruikt voor gebroken filters om de map daarop te zetten. Als er bijvoorbeeld dan een alleen staande gebroken filter is dan laad de kaart niks.
+
+  Ik had er ook voor kunnen kiezen die uit de functie te verwijderen. Maar aangezien ik toch al een functie had gemaakt om deze eruit te filteren (mede om de url en geschiedenis goed te krijgen) kan ik deze ook gewoon gebruiken. 
+  Wel heb ik de filterblokken op de pagina uitgecomment voor het geval dat ze straks wel gaan werken. 
+
+  En ik heb comments toegevoegd. Dit leek mij wel zo netjes en handig 
+
+  ![](images/codeObaFilters.png)
+
+  ---
+
+  - De rijke noordzee -> img vak 
+  - PFED -> slider
+  - Peakz -> ellipsis in account button header
+  - Oba leef en leer -> uitzetten van filters + extra dingen om gebruikers niet in verwarring te laten raken ✅
+  - RSS feed
 
   - Week 1 dag 3: Javascript achtige oplossing herschreven naar een meer nuxt oplossing voor peakz.
   - Week 3 dag 3: Opmerking gemaakt en kritisch gekeken naar hoe er middleware werd gebruikt in oba leef en leer en dat het netter wat zoals peakz het deed. 
@@ -327,18 +401,44 @@ voorbeelden uit de projecten waar je aan gewerkt hebt.
 
   **CMD’ers bedenken ideeën en ontwikkelen concepten voor digitale interactieve producten, diensten, en belevingen. Ze vinden nieuwe wegen om tegemoet te komen aan wensen van gebruikers, doelstellingen van de opdrachtgever en andere belangen.**
 
+  #### Mijn leerdoelen
+
+  Wat ik wil leren en doen tijdens mijn stage dat aansluit aan de competentie “Verbeelden en conceptualiseren” is om kritisch te blijven kijken naar oplossingen of problemen die zijn aangekaart in issues. Hiervoor is voor mij de uitdaging om zo goed mogelijke oplossingen te bedenken die de stakeholders ten goede komen. Dit ga ik doen door te experimenteren en gebruik te maken van andere bijpassende methodes. Ook wil ik eigen ideeën voorstellen, deze onderbouwen en voorstellen aan collega’s. 
+
+  #### Uitwerking
+
+  Aan het begin van mijn stage heb ik op Peakz padel gewerkt die bijna live ging. Peakz padel kreeg 2 websites, een duitse en een nederlandse. Met dezelfde codebase hoefde alleen de vertalingen nog worden toegevoegd door een vertaler. En aangezien .nl eerder live ging dan .de kwamen de vertalingen ook best laat in het proces. Dit zorgde ervoor dat er in de navigatie balk weinig ruimte overbleef voor andere knoppen zoals je account knop door de lange duitse woorden. Belangrijk was wel dat de button het meest van zijn tekst behoudde want dit gaf aan of je in je account zat of dat je nog moest inloggen. Een aantal oplossingen die ik voorstelde was het gebruik van ellipsis (uitleg...), het wrappen van de navigatiebalk of woorden in de navigatiebalk als die te lang werd en of alleen de voornaam tonen in plaats van de volledige naam. 
+
+  ![](images/loginKnopPeakz.png)
+
+  Hier ben ik even mee bezig geweest en heb de verschillende manieren geprobeerd. Het wrappen van de woorden op bepaalde breakpoints scheelde al heel veel en zag er ook niet heel verkeerd uit. Uiteindelijk is hier een combinatie ontstaan van het wrappen van woorden en ellipsis gebruik vanaf een bepaald punt voor je account button.
+
+  ![](images/lastBreakPointPeakzDe.png)
+
+  <!-- - Meerdere oplossingen voorgesteld over een te lange button met je eigen naam die naar je account gaat op de PEAKZ website. -->
+
+  Halverwege mijn stage kreeg ik de opdracht om de logica van een formulier voor vista hypotheken werkend te krijgen en te verfijnen. Er was namelijk een verzoek vanuit de klant om een formulier structuur wijziging door te voeren, hiervoor was een vraag in het formulier nodig die 3 keer genest werd en dat kon het formulier niet aan, dus moest daar nieuwe logica voor geschreven worden. Hiervoor moest ik goede oplossingen bedenken die de user experience aanzienlijk zouden verbeteren. Waar ik ondeandere rekening mee moest houden was: extra lagen toevoegen aan het formulier en die velden kunnen tonen, de extra velden kunnen valideren voor onder onder andere meerdere type vragen (radios, checlboxes, text) in de diepere lagen, geneste antwoorden kunnen verwijderen als je een laag erboven iets veranderd en error meldingen voor die geneste velden kunnen laten zien. Ook moest ik rekening houden voor de validatie dat als gebruikers zich bedenken, antwoorden kunnen zijn ingevuld op plekker waar dat niet moet. Deze moet ik dus tijdens het invullen van het formulier in de gaten houden en verwijderen als het nodig is. 
+
+  <!-- - Vista logica (kritisch naar het formulier gekeken en features erbij gebouwd die nog niet bestonden zoals: extra lagen toevoegen aan het formulier en velden kunnen tonen, de extra velden kunnen valideren (voor meerdere types in de diepere lagen), geneste antwoorden kunnen verwijderen als je een lag erboven iets veranderd, error meldingen voor die geneste velden kunnen laten zien, ) ook nog de code geoptimaliseerd. -->
+
+
+<!-- `juiste positie? -->
+  Na vista ben ik mee gaan werken aan de website voor patientenfederatie. Uit patientenfederatie kwam het verzoek om ook een rss feed te maken. Deze hebben ze ook nog op hun oude website en sommige externe partijen gebruiken deze feed nog. Om hun webisites niet kapot te laten gaan moest ik de rss feed zo bouwen dat het nagenoeg hetzelfde werkt, alleen dan met andere content. Ik had nog nooit een rss feed gebouwd en al zeker niet in zo'n omgeving waar de website er technisch uit ziet als een blokken doos.
+
+  - rss feed (nooit eerder gemaakt, zeker niet in een nieuwe taal op deze manier met blokken)
+
+<!--  
   - Week 1 dag 3: stukje typescript schrijven, na wat evalueren de javascript achtige code meer naar typescript geschreven, code die er al was herbruikt, en zag dat de code hierdoor een aantal code duplication kreeg, ik verzon hiervoor een oplossing maar wilde eerst vragen aan mijn collega developer of er geen helper functies hiervoor zouden moeten worden gemaakt. Antwoord: ja dat kan, is niet nodig voor deze sprint.
   - Week 4 dag 4: Meerdere oplossingen voorgesteld over een te lange button met je eigen naam die naar je account gaat op de PEAKZ website.
   - Week 5 dag 2: Ik had een oplossing bedacht voor de pre filled form links, en liet Wiebe dat zien. Wiebe zei dat dit ook te snappen zou moeten zijn voor de klant (aangezien content beheerders ook dingen in het cms veranderen, en als er dan een nieuw formulier komt moet de content beheerder deze stappen doorlopen zondar dat die enig verstand heeft van url's enzo) Ik evalueerde mijn oplossing en zag dat de oplossing voor de meeste zeker te snappen is, maar niet voor iedereen. Ik legde het uit aan de pm'er aangezien een betere oplossing tijd zou kosten. De pm'er vond de oplossing te snappen en goed genoeg, er moet desnoods een beetje documentatie bij van 2 regels. 
   - Week 6 dag 4:
   - Week 7 dag 5: Filter opties uitzetten voor oba leef en leer, en dit mooi afmaken met user friendly oplossingen na er kritisch naar hebben gekeken. 
-  - Week 8 dag 1: 
+  - Week 8 dag 1: tailgrids blokken voorbereiden
   - Week 9: vista logica (kritisch naar het formulier gekeken en features erbij gebouwd die nog niet bestonden zoals: extra lagen toevoegen aan het formulier en velden kunnen tonen, de extra velden kunnen valideren (voor meerdere types in de diepere lagen), geneste antwoorden kunnen verwijderen als je een lag erboven iets veranderd, error meldingen voor die geneste velden kunnen laten zien, ) ook nog de code geoptimaliseerd.
-
-<!-- Veel overlap met prototypen en uitwerken -->
-  
-  
-  ### Werkwijzen Onetribe
+  - Week 14: rss feed
+  -->
+ 
+ ### Werkwijzen Onetribe
 <!-- TODO dit is misschien meer over het bedrijf zelf? -->
   Aangezien Onetribe gefuseerd is met noprotocol hebben ze nu nog meerdere werk-omgevingen en manieren voor de versie beheer. Ik dacht eerst dat er meerdere manier waren maar uiteindelijk kwam ik erachter dat ze allemaal de git flow manier willen aanhouden. Hierbij wordt de versie van je applicatie automatisch geupdate aan de hand van wat je in je commit messages zet. Ook worden de branches automatisch in een map geordend aan de hand van wat je voor je branch zet. Naast git flow heb ik ook geleerd dat ze de commit messages in voltooide tijd schrijven, dit is handig want dan leest diegene die het reviewed wat die changes gaan doen en niet wat ze al gedaan hebben, want dat is niet zo. 
 
