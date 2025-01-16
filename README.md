@@ -78,7 +78,7 @@ En ik heb comments toegevoegd. Dit leek mij wel zo netjes en handig
 
 ![](images/codeObaFilters.png)
 
-Halverwege mijn stage kreeg ik de opdracht om de logica van een formulier voor vista hypotheken werkend te krijgen en te verfijnen. Er was namelijk een verzoek vanuit de klant om een structuurwijziging in het formulier door te voeren. Hiervoor was een vraag in het formulier nodig die drie keer genest werd en dat kon het formulier hoe het was gebouwd niet aan. Er moest dus nieuwe logica geschreven worden en goede oplossingen bedenken die de user experience aanzienlijk zouden verbeteren. Waar ik onder andere rekening mee moest houden was: extra lagen toevoegen aan het formulier en die velden kunnen tonen, de extra velden kunnen valideren voor onder onder andere meerdere type vragen (radios, checkboxes, text) in de diepere lagen, geneste antwoorden kunnen verwijderen als je een laag erboven iets veranderd en error meldingen voor die geneste velden kunnen laten zien. Ook moest ik rekening houden met de validatie dat als gebruikers zich bedenken, antwoorden kunnen zijn ingevuld op plekken waar dat niet moet. Deze moet ik dus tijdens het invullen van het formulier in de gaten houden en verwijderen als het nodig is. 
+Halverwege mijn stage kreeg ik de opdracht om de logica van een formulier voor vista hypotheken werkend te krijgen en te verfijnen. Er was namelijk een verzoek vanuit de klant om een structuur wijziging in het formulier door te voeren, hiervoor was een vraag in het formulier nodig die drie keer genest werd en dat kon het formulier niet aan, dus moest daar nieuwe logica voor geschreven worden. Hiervoor moest ik goede oplossingen bedenken die de user experience aanzienlijk zouden verbeteren. Waar ik onder andere rekening mee moest houden was: extra lagen toevoegen aan het formulier en die velden kunnen tonen, de extra velden kunnen valideren voor onder onder andere meerdere type vragen (radios, checkboxes, text) in de diepere lagen, geneste antwoorden kunnen verwijderen als je een laag erboven iets veranderd en error meldingen voor die geneste velden kunnen laten zien. Ook moest ik rekening houden met de validatie dat als gebruikers zich bedenken, antwoorden kunnen zijn ingevuld op plekken waar dat niet moet. Deze moet ik dus tijdens het invullen van het formulier in de gaten houden en verwijderen als het nodig is. 
 
 ![](images/drieLagenDiepVista.png)
 
@@ -106,19 +106,6 @@ Dit is natuurlijk een beknopte versie van wat ik allemaal heb gedaan en heb gele
 
 ## Leerdoelen
 
-<!-- 
-In je stageplan heb je leerdoelen beschreven binnen je gekozen
-competenties, reflecteer op je ontwikkeling aan de hand van je leerdoelen uit je
-stageplan en hoe je je ontwikkeld hebt sindsdien. Wat zijn je belangrijkste leerpunten
-van deze stage? En hoe heb je aangetoond dat je je leerdoelen hebt behaald. Geef
-voorbeelden uit de projecten waar je aan gewerkt hebt. 
-
-- Reflecteer op je ontwikkeling 
--- belangrijkste leerpunten
--- hoe aangetoond dat je ze hebt behaald (voorbeelden uit de projecten)
-
--->
-
   ### Samen ontwerpen
 
   **CMD’ers betrekken teamleden, gebruikers, domeinexperts en belanghebbenden in het ontwerp. Ze begrijpen de verhoudingen en zorgen dat iedereen zich gehoord voelt in het proces.**
@@ -130,26 +117,22 @@ voorbeelden uit de projecten waar je aan gewerkt hebt.
 
   #### Uitwerking
 
-  Tijdens mijn stage bij Onetribe heb ik veel kunnen samenwerken met verschillende stakeholders binnen een team. Aan het begin werd ik op een project genaamd Peakz padel gezet, dat in zijn laatste development fase zat voor de officiële livegang. Wat voor mij meteen nieuw was, was het samenwerken met verschillende projectmanagers (voor development, klantcontact, externe partijen contact), designers, backend developers, developers en lead developers. Ook begon ik hier een nieuw framework te leren en heb ik veel feedback gekregen. 
+  Tijdens mijn stage bij Onetribe heb ik veel kunnen samenwerken met verschillende stakeholders binnen een team. Aan het begin werd ik op een project genaamd Peakz padel gezet, dat in zijn laatste development fase zat voor de officiële livegang. Wat voor mij meteen nieuw was, was het samenwerken met verschillende projectmanagers (voor development, klantcontact en contact met externe partijen), designers, backend developers, developers en lead developers. Ook begon ik hier een nieuw framework te leren en heb ik veel feedback gekregen. Aan het begin hadden we soms een standup maar naarmate het eind in zicht kwam werd dit iedere dag een standup waar de progressie even kort werd besproken. 
 
-  Aan het begin hadden we soms een standup maar naarmate het eind in zicht kwam werd dit iedere dag een standup waar de progressie even kort werd besproken. 
+  Wat mijn focus was aan het begin van de stage was het focussen op de communicatie tussen mij en de project managers. Tussen de communicatie tussen developers en pmrs heb ik geleerd dat je duidelijk moet zijn over de status, recht toe recht aan in de communicatie en niet in detail treden op technische dingen. Een beetje kan wel maar niet te veel. Ook communicatie tussendoor is handig, tickets in jira goed up to date houden en meteen iets melden of vragen als je ergens tegenaan loopt waar extra informatie of dingen voor nodig zijn. 
+  Ook kwam ik een aantal keer tegen iets aan in development waar een update van nodig was vanuit een externe partij. Ik ben niet degene die dit communiceert, maar aan mij is wel de taak dat de projectmanager een kloppend verhaal stuurt naar de betreffende partij. Dit heb ik onder andere gedaan voor een trengo issue bij Peakz padel (een hulptool met vragen, die niet werkte in het Duits). Maar ik heb ook een keer een bepaalde manier van iets instellen in het cms uitgelegd aan de pm'er om te kijken of dit te begrijpen was. Ook heb ik zo'n bericht moeten schrijven voor oba leef en leer, maar deze moest wel wat technischer. Dit moest namelijk doorgezet worden naar de develop omgeving bij de externe partij. Na mijn bericht 3 keer te laten reviewen door mijn bedrijfsbegeleider, kon ik hem doorzetten naar pm die het bericht zou sturen. 
 
-  - Communicatie naar pm'ers / klant / developers
+  Ongeveer halverwege de stage mocht ik meewerken aan een project dat nog in de design fase zat maar alvast rustig naar de development fase ging. Hier heb ik veel meetings van bij mogen wonen. Input geven in deze meetings vond ik lastig omdat dit allemaal nieuw was en ik niet precies wist wat het proces zou zijn. Naarmate ik meer informatie kreeg en ik dit kon plaatsten, kon ik ook meer input geven en specifieke vragen stellen. Dat dit lang duurde vond ik wel jammer want dit had wel veel vragen en problemen tussen development en design kunnen verminderen in de toekomst. Er bleken namelijk wel wat haken en ogen te zitten in het proces van de designers dat moeilijkheden en onduidelijkheid zou opleveren. Namelijk bijvoorbeeld tailgrids en hoe dit werd gebruikt, versies van blokken, inconsistentie van dezelfde blokken op verschillende pagina's en soms onjuiste afmetingen uit de sidebar (de sidebar van figma als je een blok inspecteert met de waardes van de padding en margin bijvoorbeeld.)
 
-  Ongeveer halverwege de stage mocht ik meewerken aan een project dat nog in de design fase zat maar alvast rustig naar de development fase ging. Hier heb ik veel meetings van bij mogen wonen. Input geven in deze meetings vond ik lastig omdat dit allemaal nieuw was en ik niet precies wist wat het proces zou zijn. Naarmate ik meer informatie kreeg en ik dit kon plaatsten, kon ik ook meer input geven en specifieke vragen stellen. Dat dit lang duurde vond ik wel jammer want dit had wel veel vragen en problemen tussen development en design kunnen verminderen in de toekomst. Er bleken namelijk wel wat haken en ogen te zitten in het proces van design dat moeilijkheden en onduidelijkheid zou opleveren. Namelijk bijvoorbeeld tailgrids en hoe dit werd gebruikt, versies van blokken, inconsistentie van dezelfde blokken op verschillende pagina's en soms onjuiste afmetingen uit de sidebar (de sidebar van figma als je een blok inspecteert met de waardes van de padding en margin bijvoorbeeld.)
+  Halverwege kreeg ik ook feedback om meer te focussen op mijn communicatievaardigheden. Harder praten en meer input geven in meetings, meer initiatief nemen, vragen stellen en materiaal leveren om andermans werk, opdrachten of keuzes makkelijker kunnen worden gemaakt waardoor het nog fijner samenwerken is met mij.
 
-  Halverwege kreeg ik ook feedback om meer te focussen op mijn communicatievaardigheden. Harder praten en meer input geven in meetings, meer initiatief nemen, vragen stellen en materiaal leveren om andermans werk, opdrachten of keuzes makkelijker kunnen worden gemaakt waardoor het nog fijner samenwerken is met mij. 
-  (verwerkt met bijvoorbeeld de test-linkjes, meer focussen op de statussen van jira tickets, andere developers vragen stellen met voorbeelden, ...)
+  Door aannames van development dat design alles volgens het boekje had gedaan en dat de opdracht voor development was om eerst ruig blokken te bouwen zodat de klant het kon invullen was (en daarna zwakte dat af naar wel pixel perfect werken), was de website niet pixel perfect toen design er naar ging kijken. De opdracht voor development toen was om het recht te trekken en letterlijk screenshots over elkaar te moeten doen om er vanuit te kunnen gaan dat het pixel perfect was. Nadat ik hiermee bezig was geweest heb ik zelfstandig meetings aangemaakt met de designer om er nog een keer doorheen te gaan en het allemaal te checken. Dit heb ik voorbereid door middel van het maken van test-linkjes van pagina's waar ik dezelfde content had ingevuld in het cms als wat er in de figma stond. Dit gaf een veel beter beeld en de mogelijkheid om de meeting gestructureerd en overzichtelijk te laten verlopen. Terwijl de designer er doorheen ging had ik alle feedback punten opgeschreven en dit later gemeld aan de pm'er en verwerkt. 
 
-  Door aannames van development dat design alles volgens het boekje had gedaan en dat de opdracht voor development was om eerst ruig blokken te bouwen zodat de klant het kon invullen was (en daarna zwakte dat af naar wel pixel perfect werken), was de website niet pixel perfect toen design er naar ging kijken. De opdracht voor development toen was om het recht te trekken en letterlijk screenshots over elkaar te moeten doen om er vanuit te gaan dat het pixel perfect was. Nadat ik hiermee bezig was geweest heb ik zelfstandig meetings aangemaakt met de designer om er nog een keer doorheen te gaan en het allemaal te checken. Dit heb ik gedaan door middel van het maken van test-linkjes van pagina's waar ik dezelfde content had ingevuld in het cms als in de figma. Dit gaf een veel beter beeld en gaf de mogelijkheid om de meeting gestructureerd en overzichtelijk te laten verlopen. Terwijl de designer er doorheen ging heb ik alle feedback punten opgeschreven en dit later gemeld aan de pm'er en verwerkt. 
+  Terugblikkend op dit proces zou het veel soepeler zijn gegaan als ik dit allemaal had geweten, kon checken en kon inschatten. Maar ik heb hier in ieder geval veel van geleerd, met name met de samenwerking tussen development en design. 
 
-  Terugblikkend op dit proces zou het veel soepeler zijn gegaan als ik dit allemaal had geweten en kon checken en kon inschatten. Maar ik heb hier in ieder geval veel van geleerd, met name met de samenwerking tussen development en design. 
+  Verder heb ik tijdens mijn stage meerdere interessante meetings kunnen bijwonen zoals na elke sprint van Patientenfederatie een retrospective. Hier hebben we elkaar feedback gegeven en gekregen. Qua feedback dat ik kreeg is dat ik soms nog iets te veel elementen nest in de .twig. En dat ik de volgende blokken extra goed meteen op het design moet letten en pixel perfect moet werken. Design zelf zat niet bij deze meeting maar hierover hebben we een aantal dingen gezegd wat ons leven van de developers een stuk makkelijker kan maken volgende projecten. Zo zou het handig dat ze in figma in branches gaan werken, wat resulteert in minder design tabs. Verder is het de bedoeling dat als je een blokkendoos wilt bouwen, consistent bent in met components. En er zou een bepaalde manier zijn hoe je een blok aanpast, alle values via de values invullen en niet soms slepen. Ook zou het makkelijk zijn voor ons om een pagina te hebben me alle afmetingen en cases waarom die afmetingen kunnen verschillen. Als die logica al klaar ligt hoeven wij dit alleen te implementeren in de code en kan hier niet verder over getwist worden. En semantisch werken is ook erg op waarde gestelt, basiskennis over html en hoe het zich moet gedragen zou hier handig zijn.   
 
-  Verder heb ik kunnen focussen op communicatie tussen developers en tussen developers en pm'ers. Tussen de communicatie tussen developers en pmrs heb ik geleerd dat je duidelijk moet zijn over de status, recht toe recht aan in de communicatie en niet in detail treden op technische dingen. Een beetje kan wel maar niet te veel. Ook communicatie tussendoor is handig, tickets in jira goed up to date houden en meteen iets melden of vragen als je ergens tegenaan loopt waar extra informatie of dingen voor nodig zijn. 
-
-  - Start dev sprint 4, 2de retrospective gedaan voor dit project. Hier hebben we weer feedback gegeven en gekregen. Qua feedback dat ik kreeg is dat ik soms nog iets te veel nest in de twig. En verder gewoon volgende blokken extra goed meteen op de design letten en pixel perfect werken. Design zat niet bij deze meeting maar hierover hebben we we een aantal dingen gezegd wat ons leven van de developers het een stuk makkelijker maakt volgende projecten. Ze moeten in figma in branches gaan werken. Minder design tabs. Consistent in components werken. Alle values via de values invullen en niet soms slepen enzo. Overzichtelijke pagina’s met alle values. Semantisch werken (basis html structuur kennis is handig)  
-
-  - Meeting development team over hoe we winstgevender kunnen zijn, processen kunnen verbeteren, minder afwijkende verwachtingen kunnen opleveren en de kwaliteit van de projecten kunnen waarborgen. Hier kwamen wel wat interessante punten uit zoals ons meer houden aan de gitflow, project branches omzetten naar een naam die overal wordt gebruikt. Code schoon houden. Uren rekenen om te bouwen + testen + deployen + laten reviewen. Ons meer houden aan wat er in gepland is i.p.v klusjes tussendoor. Reviewen op een bepaald tijdstip. 
+  Ook hadden de developers onder elkaar ook een meeting over hoe wij meer structuur kunnen brengen in ons werk, en zo winstgevender kunnen worden. Hier kwamen wel wat interessante punten uit zoals ons meer houden aan de gitflow, project branches omzetten naar een naam die overal wordt gebruikt, code schoon houden en aanvullen met comments. Uren inschatten om te bouwen + testen + deployen + laten reviewen. Ons meer houden aan wat er in gepland is i.p.v klusjes tussendoor en reviewen op een bepaald tijdstip waardoor je minder snel uit je flow wordt gehaald en tijd kwijt bent om het project op te starten en in te lezen in wat er gedaan zou moeten zijn. 
 
   ### Prototypen en uitwerken
 
@@ -163,9 +146,9 @@ voorbeelden uit de projecten waar je aan gewerkt hebt.
 
   Tijdens mijn stage bij Onetribe heb ik op veel projecten mee mogen draaien op het gebied van front-end development. Om het Vue.js/Nuxt.js framework te leren heb ik mij ingelezen in het framework, een online cursus met oefeningen gedaan en daarna geholpen op het project Peakz padel waar ik bugs kon oplossen en meer inzicht te krijgen in hoe zo'n project in elkaar zit. Hier heb ik de basis van vue en nuxt goed onder de knie gekregen. (Hierover kan je meer lezen onder het "Vue.js/Nuxt.js Onetribe" kopje in de bijlagen). Op dit project heb ik goed de standaarden van het bedrijf kunnen inzien en mijn code zo kunnen schrijven dat het niet onder doet ten opzichte van andere developers. Dit is steeds verder in de stage goed te zien en ook terug te lezen in onder andere de feedbackformulieren. 
 
-  Nadat ik de basiskennis onder de knie had, heb ik dit verder kunnen gebruiken en verdiepen in andere projecten zoals Oba leef en leer en Vista hypotheken. Hier werden de problemen en features waar ik aan kon werken steeds complexer en met behulp van veel vragen, trial en error, desk research en feedback vragen kon ik de meeste binnen de tijd goed oplossen binnen de standaarden van het bedrijf. 
+  Nadat ik de basiskennis onder de knie had, heb ik dit verder kunnen gebruiken en verdiepen in andere projecten zoals Oba leef en leer en Vista hypotheken. Hier werden de problemen en features waar ik aan kon werken steeds complexer en met behulp van veel vragen, trial en error, desk research en feedback vragen kon ik de meeste binnen de tijd goed oplossen binnen de standaarden van het bedrijf. Dit ging steeds soepeler en hierdoor kon ik steeds betere oplossingen bedenken omdat ik steeds beter wist wat er mogelijk was binnen dit framework. 
 
-  Uiteindelijk vanaf halverwege tot het eind van de stage ben ik druk bezig geweest met Patiëntenfederatie. Hier was de tech stack anders dan in de andere projecten waaraan ik had gewerkt en kreeg ik de verantwoordelijkheid om concepten vanuit het design en verwachtingen van de klant te concretiseren in een echte website. Ook hier weer heeft veel feedback, vragen stellen, nieuwe systemen gebruiken zoals pagespeed en browserstack mij veel geleerd over dit vak en heeft gezorgd dat ik erg ben gegroeid in deze competentie. 
+  Uiteindelijk vanaf halverwege tot het eind van de stage ben ik druk bezig geweest met Patiëntenfederatie. Hier was de tech stack anders dan in de andere projecten waaraan ik had gewerkt en kreeg ik de verantwoordelijkheid om concepten vanuit het design, en verwachtingen van de klant te concretiseren in een echte website. Ook hier weer heeft veel feedback, vragen stellen, nieuwe systemen gebruiken zoals pagespeed en browserstack mij veel geleerd over dit vak en heeft gezorgd dat ik erg ben gegroeid in deze competentie. 
 
   ### Evalueren
 
@@ -177,8 +160,6 @@ voorbeelden uit de projecten waar je aan gewerkt hebt.
 
   #### Uitwerking
 
-  <!-- -resultaten herhaaldelijk toetsen op: waarde + belang -->
-
   Tijdens mijn stage heb ik geprobeerd door het hele proces te blijven kijken naar wat er opgeleverd is en wat er nog moet worden verbeterd voor wie daar belangen bij heeft. In andere competenties lees je vooral dat ik ook kritisch ben geweest tijdens het maken van oplossingen. Maar ik heb ook aan het begin van het proces van Patiëntenfederatie kritisch gekeken naar het design om vragen en feedback te geven aan de designers. Hier kon ik semantische en algemene foutjes en inconsistentie uithalen waar ik weer naar kon vragen zodat het minder verwarring zou opleveren tijdens het developen.
   Hoe ik dit evalueerde was door middel van deskresearch door in de fimga op zoek te gaan naar afwijkende dingen. Verder kwam dit ook veel naar voren in het development proces zelf, wat weer leidde tot vragen en check-ins bij de designers.
 
@@ -186,105 +167,54 @@ voorbeelden uit de projecten waar je aan gewerkt hebt.
 
   ![](images/checkChangesGithub.png)
 
-  Wat ik ook langzamerhand zorgvuldiger ging doen tijdens de stage was het lokaal testen (en dan vooral de vele edge cases) en als het op staging of een andere omgeving was gedeployed dat ik het nog een keer ging testen voordat de project manager het ging bekijken en het ticket ging afronden.
+  Wat ik ook langzamerhand zorgvuldiger ging doen tijdens de stage was het lokaal testen (en dan vooral de vele edge cases) en als het op staging of een andere omgeving was gedeployed, dat ik het nog een keer ging testen voordat de project manager het ging bekijken en het ticket ging afronden.
 
-  Verder heb ik tijdens het maken van issues veel vragen proberen te stellen aan mede developers als ik niet precies wist hoe of welke kant ik op zou moeten gaan. Hierdoor heb ik meer kennis opgebouwd van wat de mogelijkheden überhaupt zijn met de bepaalde technieken die werden gebruikt voor het project. Vue/Nuxt voor peakz en alle andere kleine projecten. En Craft en .twig voor Patiëntenfederatie. [voorbeeld???]. Hierdoor kreeg ik het ook steeds meer onder de knie om zelf uit te kunnen vogelen wat een goede oplossing zou kunnen zijn. Maar aan het einde van mijn stage maakte ik alsnog een fout door niet goed genoeg research te hebben gedaan naar de mogelijke oplossingen. 
-  Ik had namelijk een bepaald blok dat ik onderaan de pagina moest vastzetten over de hele breedte terwijl de content daarboven maar half zo breed was. Ik had gezocht naar een goede oplossing maar die kon ik net zo snel vinden. Uiteindelijk had ik een manier gevonden en koos ervoor om dat bepaalde blok (als het werd gebruikt op de pagina) vast te zetten onderaan de pagina. Ik wist dat dit niet de beste oplossing was dus bleef wel zoeken naar een nieuwe. Toen ik eindelijk de mogelijkheid had om het te vragen, bleek er een veel makkelijkere optie klaar te liggen die logisch was, makkelijk te begrijpen was voor de klant, en de code netjes zou houden. Alleen had ik hem gewoon niet zelf gezien omdat ik daar niet naar had gekeken. 
+  Verder heb ik tijdens het maken van issues veel vragen proberen te stellen aan mede developers als ik niet precies wist hoe of welke kant ik op zou moeten gaan. Hierdoor heb ik meer kennis opgebouwd van wat de mogelijkheden überhaupt zijn met de bepaalde technieken die werden gebruikt voor het project. Hierdoor kreeg ik het ook steeds meer onder de knie om zelf uit te kunnen vogelen wat een goede oplossing zou kunnen zijn. Maar aan het einde van mijn stage maakte ik alsnog een fout door niet goed genoeg research te hebben gedaan naar de mogelijke oplossingen. 
+  Voor Patiëntenfederatie had ik namelijk een bepaald blok dat ik onderaan de pagina over de hele breedte moest vastzetten terwijl content daarboven maar half zo breed was. Ik had gezocht naar een goede oplossing maar die kon ik net zo snel vinden. Uiteindelijk had ik een manier gevonden en koos ervoor om dat bepaalde blok (als het werd gebruikt op de pagina) vast te zetten onderaan de pagina. Ik wist dat dit niet de beste oplossing was dus bleef wel zoeken naar een nieuwe. Toen ik eindelijk de mogelijkheid had om het te vragen, bleek er een veel makkelijkere optie klaar te liggen die logisch was, makkelijk te begrijpen was voor de klant, en de code netjes zou houden. Alleen had ik hem gewoon niet zelf gezien omdat ik daar niet naar had gekeken. Dit was namelijk een extra los blokje toevoegen aan de pagina in het cms waar de content beheerder zelf kan kiezen of hij het blok gaat gebruiken, en wat hij er dan in gaat zetten. Zo heeft de beheerder alsnog de vrijheid om het lees meer blok (de styling waarin het blok zou moeten worden gestyled) te gebruiken tussen de normale blokken op zo'n artikel pagina. 
 
   ![](images/vacatureBlock.png)
-
-<!-- - (Begin proces PFED) Kritisch gekeken naar het design om vragen en feedback te geven aan de designers. (Semantiek, foutjes, inconsistentie) (ander Font voor kleine tekstjes bijvoorbeeld) -->
-<!-- - pre filled in form links voor PEAKZ (3 keer de code geevalueerd en verbeterd)
-- Aspect ratio videos uit data voor PEAKZ (ook meerdere keren  geevalueerd en verbeterd)
-- RSS feed verder blokken gemapt (manieren verbeterd in de macros zodat de code sneller en overzichtelijker is), tijdens het maken van een andere feature kwam nog best veel dingen tegen op de website waar we nog even naar moesten kijken qua styling. Dit heb ik opgeschreven. 
-- (PFED midden) Styling foutjes uit staging gehaald
-- Verder altijd kritisch gekeken naar het product op bugs en foutjes, hier tickets voor aangemaakt en opgelost.  -->
-
-<!-- 
-  - Week 5 dag 2: pre filled in form links voor PEAKZ (3 keer de code geevalueerd en verbeterd)
-  - Week 7 dag 1: Aspect ratio videos uit data voor PEAKZ (ook meerdere keren  geevalueerd en verbeterd)
-  - Week 7 dag 5: Code geevalueerd en bedacht dat het hier handig zou zijn om comments toe te voegen. 
-  - Week 13 dag 3: Door staging gelopen en styling foutjes er nog even uitgehaald voor PFED
-  -  Week 14 dag 1: Start dev sprint 4, 2de retrospective gedaan voor dit project. Hier hebben we weer feedback gegeven en gekregen. Qua feedback dat ik kreeg is dat ik soms nog iets te veel nest in de twig. En verder gewoon volgende blokken extra goed meteen op de design letten en pixel perfect werken. Design zat niet bij deze meeting maar hierover hebben we we een aantal dingen gezegd wat ons leven van de developers het een stuk makkelijker maakt volgende projecten. Ze moeten in figma in branches gaan werken. Minder design tabs. Consistent in components werken. Alle values via de values invullen en niet soms slepen enzo. Overzichtelijke pagina’s met alle values. Semantisch werken (basis html structuur kennis is handig)  
-  - Week 14 dag 4: rss feed testen en evalueren
-  - Week 14 dag 5: RSS feed verder blokken gemapt (manieren verbeterd in de macros zodat de code sneller en overzichtelijker is), tijdens het maken van een andere feature kwam nog best veel dingen tegen op de website waar we nog even naar moesten kijken qua styling. Dit heb ik opgeschreven. 
- -->
 
   ### Oriënteren en begrijpen
 
   **CMD’ers kunnen de context van het probleem, de wens van de gebruiker, doelstelling van de opdrachtgever, de belangen van belanghebbenden en de mogelijkheden van de technologie in kaart brengen en begrijpen.**
-  
-  <!-- - context, de wens, doelstelling, belangen, mogelijkheden in kaart brengen en begrijpen -->
 
   #### Mijn leerdoelen
 
   Wat ik wil leren en doen tijdens mijn stage dat aansluit aan de competentie “Oriënteren en begrijpen” zijn issues met de wens van de gebruiker en doel van de opdrachtgever te begrijpen en hiervoor een passende oplossing vinden, ook als ik al een oplossing heb gevonden blijf ik kijken of er een betere is om zo de kwaliteit van het product te verbeteren en mijn kennis te vergroten. 
 
-  <!-- - Wens en doel begrijpen -> passende oplossing
-  - Al oplossing -> kijken voor betere  -->
-
   #### Uitwerking
 
-  <!-- - Oba leef en leer -> uitzetten van filters + extra dingen om gebruikers niet in verwarring te laten raken ✅ -->
+  Tijdens mijn stage heb ik aan veel projecten gewerkt waar problemen en vraagstukken naar voren kwamen die ik kon oplossen. Door goed aan de opdrachtgever en gebruiker te denken heb ik voor veel een passende oplossing bedacht in de bijbehorende techniek, en op een nette manier. Ik heb bijvoorbeeld aan het begin van de stage een probleem moeten oplossen voor Oba leef en leer. Bij een filter optie op de website lukte het niet om op bepaalde filters te filteren. De website handelde alles goed af, maar het lag juist aan de service die werd gebruikt om de gefilterde resultaten te laten zien. Die gaven namelijk geen goede url terug van de kaart met alle gefilterde locaties. Om verwarring voor de gebruiker te voorkomen heb ik in de code de betreffende filters uitgecommend (zodat dit niet opnieuw geschreven hoeft te worden door een developer), en een comment erboven toegevoegd over waarom het is uitgecommend. 
 
-  Tijdens mijn stage heb ik aan veel projecten gewerkt waar problemen en vraagstukken naar voren kwamen die ik kon oplossen. Door goed aan de opdrachtgever en gebruiker te denken heb ik voor veel een passende oplossing bedacht in de bijbehorende techniek op een nette manier. Ik heb bijvoorbeeld aan het begin van de stage een probleem moeten oplossen voor Oba leef en leer. Bij een filter optie op de website lukte het niet om op bepaalde filters te filteren. De website van Onetribe handelde alles goed af, maar het lag juist aan de service die werd gebruikt om te filteren. Die gaven namelijk geen goede url terug van de kaart met alle gefilterde locaties. Om verwarring voor de gebruiker te voorkomen heb ik in de code de betreffende filters uitgecommend (zodat dit niet opnieuw moet worden geschreven door een developer), en een comment erboven toegevoegd over waarom het is uitgecommend. 
-
-  Daarna heb ik nog wat aanpassingen gedaan zodat:
+  Op deze website heb je twee pagina's waar je kan filteren met de filters. Op een pagina doet alles het wel, en op de andere pagina doet een deel het dus niet. Hiervoor heb ik nog wat aanpassingen gedaan zodat:
 
   - De gebruiker niet verward raakt als er filters verdwijnen en nog in de url staan. 
   - De kaart altijd resultaat krijgt, ook al wordt een gebroken error gebruikt. 
-  - De gebruiker terug kan gaan naar zijn originele filters op de andere pagina (geschiedenis onthouden)
+  - De gebruiker terug kan gaan naar zijn originele filters op de andere pagina (geschiedenis onthouden).
 
-  Hier moest ik wat voor experimenteren om het met zo’n klein mogelijke en goede aanpassingen voor elkaar te krijgen. 
-
-  Uiteindelijk heb ik hiervoor een aparte functie gemaakt. Deze functie controleert of er andere filters in zitten die de map niet kan hendelen. Deze haalt hij er zo nodig uit. Daarna geeft hij de uiState weer terug. Echter had ik wel de oude uiState nodig om de geschiedenis te behouden. Dit heb ik in de updateUrlPath functie gewijzigd. 
-
-  Ook heb ik de functie gebruikt om de uiState te cleanen zodat het niet wordt gebruikt voor gebroken filters om de map daarop te zetten. Als er bijvoorbeeld dan een alleen staande gebroken filter is dan laad de kaart niks.
-
-  Ik had er ook voor kunnen kiezen die uit de functie te verwijderen. Maar aangezien ik toch al een functie had gemaakt om deze eruit te filteren (mede om de url en geschiedenis goed te krijgen) kan ik deze ook gewoon gebruiken. 
-  Wel heb ik de filterblokken op de pagina uitgecomment voor het geval dat ze straks wel gaan werken. 
-
-  En ik heb comments toegevoegd. Dit leek mij wel zo netjes en handig 
+  Hier moest ik wat voor experimenteren om het met zo’n klein mogelijke en goede aanpassingen voor elkaar te krijgen. Uiteindelijk heb ik hiervoor een aparte functie gemaakt. Deze functie controleert of er andere filters in zitten die de kaart niet kan afhandelen. Deze haalt hij er zo nodig uit, en geeft de nieuwe actieve filters weer terug, maar ik heb wel de oude filters opgeslagen om de geschiedenis te behouden.
+  Alles wat eerst wel werkte heb ik uitgecomment voor het geval dat ze straks wel gaan werken, en ik heb comments toegevoegd om de rare situatie duidelijk te maken.
 
   ![](images/codeObaFilters.png)
 
   ---
-  <!-- - PFED -> slider -->
 
   Halverwege mijn stage was ik druk bezig met content blokken bouwen voor de klant Patiëntenfederatie. Op de website moest ook een slider kunnen worden geplaatst maar hiervoor was geen passend blok dat bestond in tailgrids. Na wat brainstormen en deskresearch naar een goede slider kwam ik uit op het gebruiken van scroll snap samen met Alpine.js om de knoppen werken te krijgen. 
 
   ![](images/pfedSliderPijlen.png)
 
-  Na nog een keer naar het design te hebben gekeken naar het design zag ik dat op mobiel er status puntjes onder moesten komen. Dit probeerde ik ook te implementeren met Alpine.js maar het bleek al snel dat het daarvoor niet echt was gemaakt. En de twig code werd hier ook erg onoverzichtelijk van. Na wat te hebben overlegd met mijn mede developer op dit project kwamen we erachter dat het misschien wel beter was om alles om te schrijven naar normale javascript, zonder het gebruik van tailgrids. Hier stond ik ook helemaal achter en bleek al snel een hele goede optie te zijn geweest. Tijdens het opnieuw bouwen van de slider kwamen er namelijk allemaal extra user experience verbeteringen in mijn hoofd op die ik met deze manier van werken meteen kon tackelen. 
-  De grootste reden dat we waren geswitched was dat je op desktop dan niet perse de knopjes zou moeten gebruiken maar ook normaal kan scrollen in de slider op desktopformaat. Maar door deze manier kon ik makkelijker de gedisablede knopjes en de status van de status-puntjes op mobiel bijhouden (ook tijdens het scrollen met gestures) en dit gelijk laten lopen. Ook kon ik maken dat als alle items in het beeld zijn, de knoppen dan allebei disabled zijn. En als je naar het eind van de slider hebt gescrolled en alle laatste items al in beeld zijn, dat de knop die naar die richting zou scrollen disabled wordt. De normale en actieve kleuren aanpassen van de knoppen wanneer de achtergrondkleur hetzelfde zou zijn als een van de default kleuren. 
+  Na nog een keer naar het design te hebben gekeken zag ik dat op het mobiele formaat van de website er status puntjes onder moesten komen die ook als links zouden moeten kunnen functioneren. Dit probeerde ik ook te implementeren met Alpine.js maar het bleek al snel dat dat daarvoor niet echt was gemaakt. Ook werd de twig code hier erg onoverzichtelijk van. Na wat te hebben overlegd met mijn mede developer op dit project, kwamen we erachter dat het misschien wel beter was om alles om te schrijven naar normale javascript, zonder het gebruik van tailgrids of Alpine.js. Dit bleek al snel een hele goede keuze te zijn geweest. Tijdens het opnieuw bouwen van de slider kwamen er namelijk allemaal extra user experience verbeteringen in mijn hoofd op die ik met deze manier van werken meteen makkelijker kon tackelen. 
+  De grootste reden dat we waren geswitched was dat je op desktop dan niet perse de knopjes zou moeten gebruiken maar ook normaal kan scrollen in de slider op desktop formaat. Ook kon ik makkelijker de gedisablede knopjes en de status van de status-puntjes op mobiel bijhouden en dit gelijk laten lopen (ook tijdens het scrollen met gestures). Verder kreeg ik het voor elkaar allebei de knoppen te disabelen als alle items in het beeld zijn. En als je naar het eind van de slider hebt gescrolled en alle laatste items al in beeld zijn, dat de knop die naar die richting zou scrollen disabled wordt. De normale en actieve kleuren aanpassen van de knoppen wanneer de achtergrondkleur hetzelfde zou zijn als een van de default kleuren. 
 
   ![](images/sliderDotsPfed.png)
+
   ![](images/afbeeldingCarouselBrand80.png)
 
-  En met javascript werd het linken van de puntjes op mobiel naar de juiste kaart ook een heel stuk handiger. Eerst gebruikte ik html links (`<a></a>`) die achorde op de list items. die kwamen wel dan altijd aan de top van de viewport, en dit was erg lelijk. Dit kon ik oplossen door op een item die er boven zweefde te anchoren maar dit gaf wel wat scroll issues. Met javascript verdween dit allemaal meteen en kon ik gewoon `carousel.scrollLeft += scrollAmount;` en `carousel.scrollLeft -= scrollAmount;` gebruiken zonder dat er iets verspringt in de viewport. 
+  En met javascript werd het linken van de puntjes op mobiel naar de juiste kaart ook een heel stuk handiger. Eerst gebruikte ik html links (`<a></a>`) die achorde op de list items. die kwamen wel dan altijd aan de top van de viewport, en dit was erg lelijk en bijna niet te gebruiken. Dit kon ik oplossen door op een item die er boven zweefde te tageten maar dit gaf wel wat scroll issues. Met javascript verdwenen deze problemen allemaal meteen en kon ik gewoon `carousel.scrollLeft += scrollAmount;` en `carousel.scrollLeft -= scrollAmount;` gebruiken zonder dat er iets versprong in de viewport. 
 
-  Hiervoor zijn we van het voorgeschreven plan en design afgestapt  etc etc....
+  Hiervoor zijn we van het voorgeschreven plan en design afgestapt om de belanghebbenden te helpen met een goed functionerende feature, waar de eerder gekozen technieken niet de juiste bleken te zijn. 
 
-<!-- 
-  - Peakz -> ellipsis in account button header
-  - RSS feed
-
-  - Week 1 dag 3: Javascript achtige oplossing herschreven naar een meer nuxt oplossing voor peakz.
-  - Week 3 dag 3: Opmerking gemaakt en kritisch gekeken naar hoe er middleware werd gebruikt in oba leef en leer en dat het netter wat zoals peakz het deed. 
-  - Week 4 dag 4: Met de standup erover gehad wat er moest gebeuren met de duitse header en de overflowende account button. Hiervoor heb ik meerdere dingen voor voorgesteld zoals alleen de voornaam tonen of bijvoorbeeld met ellipsis de naam afkappen aan de hand van hoeveel ruimte die nog heeft.
-  - Week 5 dag 2: Webflow slider gefixed na wat onderzoek naar de slider in webflow. (nog nooit mee gewerkt) (Voor collega)
-  - Week 5 dag 3: Peakz onderzoek gedaan om de data in notion te kunnen krijgen.
-  - Week 6 dag 4: Email handtekening helpen voor collega, embed video veld toevoegen in craft zodat de gebruiker videos kan toevoegen. (rijke noordzee)
-  - Week 7 dag 2: Onderzoek doen naar tailgrids 
-  - Week 7 dag 5: Voor oba leef en leer werkte een aantal dingen niet van externe partijen en om verwarring te voorkomen moest ik hier wat dingen aanpassen. Hier moest ik wat voor experimenteren om het met zo’n klein mogelijke en goede aanpassingen voor elkaar te krijgen. En dit is gelukt. CODE? FOTOS?
-  - Week 8 dag 1: Onderzoek gedaan naar twig en craft. 
-  - Week 13 dag 3: Door staging gelopen en styling foutjes er nog even uitgehaald en daarvan bepaalde oplossingen doorgevoerd en gevraagd aan Colin wat hij er van vindt. 
-  - Week 14 dag 2: Mobiele slider gemaakt. Gekozen voor css snap en extra javascript toegevoegd voor het targeten van de list items, en om de dots te highlighten als je scrollt. Dit werkt ook zonder javascript en geeft extra user experience features met javascript. 
-  - Week 14 dag 4: RSS feed onderzoek, hoe werkt het, wat is het, wat kunnen ze ermee en waar moet het aan voldoen. 
-  - Week 15 dag 1: kritisch gekeken naar de mobiele slider en aangepast zodat het zonder tailgrids werkt, altijd kan swipen met je vinger (ook op desktop) en dat het voor meerdere sliders op de pagina werkt. 
-
-
-  (Onderzoek naar craft, tailgrids, twig, vue + nuxt, logica vista) -->
+  Tijdens mijn stage heb ik veel problemen kunnen oplossen en heb geprobeerd kritisch te blijven kijken naar de oplossing die ik had bedacht in de betreffende technologie. Ook is mijn kennis verbreedt qua wat er allemaal mogelijk is met de nieuwe technieken die ik aan het leren was. 
 
   ### Verbeelden en conceptualiseren
 
@@ -296,37 +226,19 @@ voorbeelden uit de projecten waar je aan gewerkt hebt.
 
   #### Uitwerking
 
-  Aan het begin van mijn stage heb ik op Peakz padel gewerkt die bijna live ging. Peakz padel kreeg 2 websites, een duitse en een nederlandse. Met dezelfde codebase hoefde alleen de vertalingen nog worden toegevoegd door een vertaler. En aangezien .nl eerder live ging dan .de kwamen de vertalingen ook best laat in het proces. Dit zorgde ervoor dat er in de navigatiebalk weinig ruimte overbleef voor andere knoppen zoals je account knop door de lange duitse woorden. Belangrijk was wel dat de button het meest van zijn tekst behoudde want dit gaf aan of je in je account zat of dat je nog moest inloggen. Een aantal oplossingen die ik voorstelde was het gebruik van ellipsis (uitleg...), het wrappen van de navigatiebalk of woorden in de navigatiebalk als die te lang werd en of alleen de voornaam tonen in plaats van de volledige naam. 
+  Aan het begin van mijn stage heb ik op Peakz padel gewerkt die bijna live ging. Peakz padel kreeg 2 websites, een duitse en een nederlandse. Met dezelfde codebase hoefde alleen de vertalingen nog worden toegevoegd door een vertaler. En aangezien .nl eerder live ging dan .de kwamen de vertalingen ook best laat in het proces. Dit zorgde ervoor dat er in de navigatiebalk weinig ruimte overbleef voor andere knoppen zoals je account knop door de lange duitse woorden. Belangrijk was wel dat de button het meest van zijn tekst behoudde want dit gaf juist aan of je in je account zat of dat je nog moest inloggen. Een aantal oplossingen die ik voorstelde was het gebruik van ellipsis (doorlooppuntjes), het wrappen van de navigatiebalk of woorden in de navigatiebalk als die te lang worden en of alleen de voornaam tonen in plaats van de volledige naam. 
 
   ![](images/loginKnopPeakz.png)
 
-  Hier ben ik even mee bezig geweest en heb verschillende manieren geprobeerd. Het wrappen van de woorden op bepaalde breakpoints scheelde al heel veel en zag er ook niet heel verkeerd uit. Uiteindelijk is hier een combinatie ontstaan van het wrappen van woorden en ellipsis gebruik vanaf een bepaald punt voor je account button.
+  Dit hadden we besproken in de standup en hier is een lijstje uitgekomen, maar ik mocht even kijken wat het beste en genoeg zou zijn. Het wrappen van de woorden op bepaalde breakpoints scheelde al heel veel en zag er ook niet heel verkeerd uit. Dit was ook de kern van het probleem, namelijk duitse lange woorden. Uiteindelijk is hier een combinatie ontstaan van het wrappen van woorden en ellipsis gebruik vanaf een bepaald punt voor je account button.
 
   ![](images/lastBreakPointPeakzDe.png)
 
-  <!-- - Meerdere oplossingen voorgesteld over een te lange button met je eigen naam die naar je account gaat op de PEAKZ website. -->
+  Halverwege mijn stage had ik dus ook de opdracht gekregen op het klantbeeldformulier op de website Vista hypotheken te verbeteren na een verzoek van de klant. Hierbij heb ik erg veel rekening gehouden met de gebruiker, maar ook met de wensen van de klant. Validatie en user experience waren daarom erg belangrijk en werden door mij voortdurend getest.
 
-  Halverwege mijn stage kreeg ik de opdracht om de logica van een formulier voor vista hypotheken werkend te krijgen en te verfijnen. Er was namelijk een verzoek vanuit de klant om een formulier structuur wijziging door te voeren, hiervoor was een vraag in het formulier nodig die 3 keer genest werd en dat kon het formulier niet aan, dus moest daar nieuwe logica voor geschreven worden. Hiervoor moest ik goede oplossingen bedenken die de user experience aanzienlijk zouden verbeteren. Waar ik onder andere rekening mee moest houden was: extra lagen toevoegen aan het formulier en die velden kunnen tonen, de extra velden kunnen valideren voor onder onder andere meerdere type vragen (radios, checkboxes, text) in de diepere lagen, geneste antwoorden kunnen verwijderen als je een laag erboven iets veranderd en error meldingen voor die geneste velden kunnen laten zien. Ook moest ik rekening houden met de validatie dat als gebruikers zich bedenken, antwoorden kunnen zijn ingevuld op plekken waar dat niet moet. Deze moet ik dus tijdens het invullen van het formulier in de gaten houden en verwijderen als het nodig is. 
-
-  <!-- - Vista logica (kritisch naar het formulier gekeken en features erbij gebouwd die nog niet bestonden zoals: extra lagen toevoegen aan het formulier en velden kunnen tonen, de extra velden kunnen valideren (voor meerdere types in de diepere lagen), geneste antwoorden kunnen verwijderen als je een lag erboven iets veranderd, error meldingen voor die geneste velden kunnen laten zien, ) ook nog de code geoptimaliseerd. -->
-
-
-<!-- `juiste positie? -->
   Na vista ben ik mee gaan werken aan de website voor Patiëntenfederatie. Uit Patiëntenfederatie kwam het verzoek om ook een rss feed te maken. Deze hebben ze ook nog op hun oude website en sommige externe partijen gebruiken deze feed nog. Om hun websites niet kapot te laten gaan moest ik de rss feed zo bouwen dat het nagenoeg hetzelfde werkt, alleen dan met andere content. Ik had nog nooit een rss feed gebouwd en al zeker niet in zo'n omgeving waar de website er technisch uit ziet als een blokkendoos. Uiteindelijk kostte dit wat onderzoek door middel van deskresearch en trial and error om dit te maken en daarna wat onderzoek door middel van vergelijken om het op dezelfde manier op te zetten als de rss feed die ze al hadden. 
 
-  <!-- - rss feed (nooit eerder gemaakt, zeker niet in een nieuwe taal op deze manier met blokken) -->
-
-<!--  
-  - Week 1 dag 3: stukje typescript schrijven, na wat evalueren de javascript achtige code meer naar typescript geschreven, code die er al was herbruikt, en zag dat de code hierdoor een aantal code duplication kreeg, ik verzon hiervoor een oplossing maar wilde eerst vragen aan mijn collega developer of er geen helper functies hiervoor zouden moeten worden gemaakt. Antwoord: ja dat kan, is niet nodig voor deze sprint.
-  - Week 4 dag 4: Meerdere oplossingen voorgesteld over een te lange button met je eigen naam die naar je account gaat op de PEAKZ website.
-  - Week 5 dag 2: Ik had een oplossing bedacht voor de pre filled form links, en liet Wiebe dat zien. Wiebe zei dat dit ook te snappen zou moeten zijn voor de klant (aangezien content beheerders ook dingen in het cms veranderen, en als er dan een nieuw formulier komt moet de content beheerder deze stappen doorlopen zonder dat die enig verstand heeft van url's enzo) Ik evalueerde mijn oplossing en zag dat de oplossing voor de meeste zeker te snappen is, maar niet voor iedereen. Ik legde het uit aan de pm'er aangezien een betere oplossing tijd zou kosten. De pm'er vond de oplossing te snappen en goed genoeg, er moet desnoods een beetje documentatie bij van 2 regels. 
-  - Week 6 dag 4:
-  - Week 7 dag 5: Filter opties uitzetten voor oba leef en leer, en dit mooi afmaken met user friendly oplossingen na er kritisch naar hebben gekeken. 
-  - Week 8 dag 1: tailgrids blokken voorbereiden
-  - Week 9: vista logica (kritisch naar het formulier gekeken en features erbij gebouwd die nog niet bestonden zoals: extra lagen toevoegen aan het formulier en velden kunnen tonen, de extra velden kunnen valideren (voor meerdere types in de diepere lagen), geneste antwoorden kunnen verwijderen als je een lag erboven iets veranderd, error meldingen voor die geneste velden kunnen laten zien, ) ook nog de code geoptimaliseerd.
-  - Week 14: rss feed
-  -->
-
+  In deze competentie ben ik zeker gegroeid door verschillende ideeën te bedenken en aan te bieden in een professionele omgeving waar de wens van gebruiker en klant extra meetelt. 
 
 ## Observatieopdrachten
 
@@ -340,53 +252,38 @@ Voor de drie observatieopdrachten wilde ik onder andere stand-ups bijwonen, een 
 
 ### Standups
 
-Ik heb veel standups bijgewoond waar verschillende functies bij aanwezig waren. Daarbij heb ik goed opgelet, geluisterd en input gegeven. Daarnaast vinden er ook veel gesprekken op de werkvloer plaats waar dingen worden besproken over projecten, volgende moves en statussen. Deze heb ik ook gezien, bijgewoond, en zelf gestart. Hierdoor heb ik een goed beeld gekregen over de samenwerking en communicatie op de werkvloer binnen het team en hieraan zelf ook meegedaan en zelf geoefend. Communicatie is key, je kan beter iets te veel zeggen dan te weinig. Wat ze met die informatie doen is niet jou probleem. Wel is het handig om de tijd van een ander te respecteren en bijvoorbeeld meerdere vragen tegelijkertijd te stellen in person of in de mail. Hierdoor wordt de persoon niet onnodig meerdere keren uit zijn flow gehaald. 
+Ik heb veel standups bijgewoond waar verschillende functies bij aanwezig waren. Daarbij heb ik goed opgelet, geluisterd en input gegeven. Daarnaast vinden er ook veel gesprekken op de werkvloer plaats waar dingen worden besproken over projecten, volgende moves en statussen. Deze heb ik ook gezien, bijgewoond, en zelf gestart. Hierdoor heb ik een goed beeld gekregen over de samenwerking en communicatie op de werkvloer binnen het team en hieraan zelf ook meegedaan en zelf geoefend. Communicatie is key, je kan beter iets te veel zeggen dan te weinig. Wel is het handig om de tijd van een ander te respecteren en bijvoorbeeld meerdere vragen tegelijkertijd te stellen face to face of in de mail. Hierdoor wordt de persoon niet onnodig meerdere keren uit zijn eigen flow gehaald. 
 Wat er besproken wordt in de standups is vaak of er nog meer informatie is van de klant, statussen van tickets van de developers naar de pm'ers.
-
-<!-- - Ook wil ik graag een sprint voor de livegang en de livegang zelf bijwonen. Zo kan ik antwoord krijgen op hoe gaat dit in zijn werk, hoe werkt iedereen voor een bepaalde deadline, hoe gaat de communicatie tussen de klant, externe stakeholders, project managers en developers. Komen er nog veel dingen bij als je eenmaal live bent gegaan, dingen waar klanten nog op komen of niet chill vinden nadat ze live zijn gegaan.  -->
+Ik heb niet alleen goed opgelet tijdens standups en op de werkvloer, maar ook tijdens andere meetings. Hierdoor heb ik veel meegekregen, nieuwe dingen te weten gekomen en op nieuwe vragen gekomen die ik later kon stellen. 
 
 ### Livegang
 
-Livegang van bepaalde websites heb ik ook zeker gezien, en zelfs zelf gedaan. De grootste livegang was die van peakz padel. Deze website zat in totaal al een jaar in het development traject en aan het einde is er steeds meer focus op gekomen. Dit kwam onder andere doordat er een definitieve datum was wanneer er banen kwamen in Duitsland en voor die tijd moest de website af. Uiteindelijk is die in de 5de week van mijn stage live gegaan. Eerst Nederland (deze was het spannendst) en daarna Duitsland (dezelfde source code, alleen andere content). Dit ging allemaal makkelijker dan verwacht. Voor de livegang was er nog een spoedoverleg omdat er performance issues waren (onnodig dataverkeer). Dit zou ervoor zorgen dat de site er snel uit zou liggen als er veel bezoekers zouden komen. Uiteindelijk is ervoor gekozen om de livegang alsnog door te laten gaan en in Heroku (waar de website wordt gehost) een quick fix te doen waardoor de server scalable is en deze hoeveelheid dataverkeer dus aan kan. Dit kwam wel met een kostenplaatje van 3500 euro per maand dus dit moest snel gefixed worden. 
-Colin en Wiebe hadden de laatste dingen naar master gemerged. En Tim en Stef gingen het stappenplan van Job doorlopen om de website op productie te krijgen en te koppelen aan de DNS records. Na de livegang zaten de pm'ers op te letten of de website het goed deed en hielden contact met de klant. Ondertussen waren Colin en Wiebe de website aan het optimaliseren en ik was andere bugs aan het oplossen. Een aantal dagen later was dit allemaal opgelost en kon Duitsland live. 
+<!-- - Ook wil ik graag een sprint voor de livegang en de livegang zelf bijwonen. Zo kan ik antwoord krijgen op hoe gaat dit in zijn werk, hoe werkt iedereen voor een bepaalde deadline, hoe gaat de communicatie tussen de klant, externe stakeholders, project managers en developers. Komen er nog veel dingen bij als je eenmaal live bent gegaan, dingen waar klanten nog op komen of niet chill vinden nadat ze live zijn gegaan.  -->
+
+Een livegang van een bepaalde website heb ik ook zeker gezien, en zelfs zelf kunnen doen. De grootste livegang was die van peakz padel. Deze website zat in totaal al een jaar in het development traject en aan het einde is er steeds meer focus op gekomen. Dit kwam onder andere doordat er een definitieve datum was wanneer er banen kwamen in Duitsland, en voor die tijd moest de website af. Uiteindelijk is die in de 5de week van mijn stage live gegaan. Eerst Nederland (deze was het spannendst) en daarna Duitsland (dezelfde code, alleen andere content). Dit ging makkelijker dan verwacht. Voor de livegang was er nog een spoedoverleg omdat er performance issues waren (over onnodig dataverkeer). Dit zou ervoor zorgen dat de site er snel uit zou liggen als er veel bezoekers zouden komen. Uiteindelijk is ervoor gekozen om de livegang alsnog door te laten gaan en in Heroku (waar de website wordt gehost) een quick fix te doen waardoor de server scalable is en deze hoeveelheid dataverkeer dus aan kan. Dit kwam wel met een kostenplaatje van ongeveer 3500 euro per maand dus dit moest snel gefixed worden. Colin en Wiebe hadden de laatste dingen naar master gemerged. En Tim en Stef gingen het stappenplan van Job (de backenddeveloper) doorlopen om de website op productie te krijgen en te koppelen aan de DNS records. Na de livegang zaten de pm'ers op te letten of de website het goed deed en hielden contact met de klant. Ondertussen waren Colin en Wiebe de website aan het optimaliseren en ik was andere bugs aan het oplossen. Een aantal dagen later was dit allemaal opgelost en kon Duitsland live. 
+Deze livegang heeft mij geleerd om tijdens het proces nauwkeurig de gegevens van de website in de gaten te houden zodat je niet voor verassingen staat als het opeens snel binnenkort live gaat.
 
 <!-- - En het liefst zou ik een kick off van een project bijwonen, een beginnend project in kijken of de start van het development traject willen bijwonen of aan mee werken. Zo krijg ik meer inzicht over hoe het vanaf het begin in zijn werk gaat, door welke handen zulke projecten gaan voordat het live gaat.  -->
 
 ### Kickoff
 
-Ik heb ook een kickoff van een nieuw project bij kunnen wonen. Dit project begint aan zijn development traject nadat het door de discovery, concept en bijna de design fase is gelopen. Deze kickoff begon met een meeting onder de developers zelf samen met een pm'er om deze dingen te bespreken:
+Ik heb ook een kickoff van een nieuw project bij kunnen wonen. Dit project begint aan zijn development traject nadat het door de discovery, concept en (bijna) de design fase is gelopen. Deze kickoff begon met een meeting onder de developers zelf samen met een pm'er om deze dingen te bespreken:
 
-- Het concept te bespreken
-- Wat het is **=>** (15 websites naar 1 website, veel content, geen lastige styling, blokken bouwen, wel veel clickouts)
-- Welke tech stack **=>** Craft blokken bouwen, twig templating language, styling tailgrid, (1 tool waar vue voor wordt gebruikt (alleen ingelanden op die pagina))
-- Wat belangrijk is **=>** pagespeed, accessibility en de grootste uitdaging is het goed opzetten van de craft structuur zodat het voor de klant en content beheerders het makkelijk is om overizichtelijk content te beheren. 
+- Het concept
+- Wat het is en moet gaan worden
+<!-- **=>** (15 websites naar 1 website, veel content, geen lastige styling, blokken bouwen, wel veel clickouts) -->
+- Welke tech stack
+<!--  **=>** Craft blokken bouwen, twig templating language, styling tailgrid, (1 tool waar vue voor wordt gebruikt (alleen ingelanden op die pagina)) -->
+- Wat belangrijk is (wensen uit de klant en gebruikers)
+<!-- **=>** pagespeed, accessibility en de grootste uitdaging is het goed opzetten van de craft structuur zodat het voor de klant en content beheerders het makkelijk is om overizichtelijk content te beheren.  -->
 - Taak verdeling
 - Planning
 - Deadline
 - Eerste taken
 - Doelen 
 
-Verder werd er besproken hoe ze het willen bouwen, nieuwe dingen zoals (craft 5, tailgrids, algolia ook relatief nieuw voor veel developers)
-
-Uiteindelijk moest ik even onderzoek doen naar Tailgrid. Hoe werkt het en wat heeft het.
-Het bestaat eigenlijk uit templates en components die gemaakt zijn met tailwind. De installatie is makkelijk. Tailgrid heeft ingebouwde functies om bijvoorbeeld classes te togglen en `:class=""` toe te voegen aan de hand van een boolean etc. Dit scheelt javascript schrijven. Qua menging met twig is het makkelijk want alle data gaat zo: `{{{ data.iets }}}` en twig heeft ook loop functies, verder is het allemaal html waar je de tailwind classes op kan zetten. Design gebruikt ook tailgrids dus dat is ook makkelijk want dan kan je de gekozen tailgrid components opzoeken, kopiëren en customizen. 
-
-Daarna heb ik nog vragen gesteld over algolia en craft aan Colin. => Beter beeld over wat er gedaan moet worden voor hun. 
-In craft staat alle content, dat wordt gelinkt met algolia, dat wordt ingeladen op de website en kan makkelijk en snel zoeken in wat in algolia staat. Verder gevraagd over wat ze denken te doen in craft. Sections in sections kunnen niet. Entries (soort pagina's) en reusable entries (herbruikbare pagina's) bestaan ook. Verder vindt Tim het niet echt een goed idee om een tag op pagina's te zetten onder welke omgeving die moet komen, er zijn namelijk drie omgevingen met secties die pagina's bevatten. En in die omgevingen zijn een aantal secties hetzelfde, en je wilt geen dubbele pagina's maken. Ik zei dus tegen Colin of hij die niet als reusable pagina kon maken en die dan op meerdere pagina's kunnen gebruiken. Hij zei dat dat kon maar dat het niet echt zo werkt. 
-
-Verder hadden we de volgende dag nog twee andere meetings waar ik bij kon zitten. Deze meetings waren met design en UX en daar werd vooral de focus besproken voor nu. Ook werden de wireframes en informatie structuur doorlopen en werden er punten opgesteld terug naar de klant waar op sommige punten stevig druk op moest worden gevoerd. Dit komt omdat de klant vaak laat is met dingen aanleveren of feedback geven. 
-
-Ook werd er gekeken of ze dingen aan het concept konden tweaken waardoor het werk scheelt, en het beter is voor de gebruiker. 
-
-Ook werd er discussie gevoerd over bepaalde beslissingen met betreft opzet CMS omdat dit veel gevolgen gaat hebben op uren en hoe de klant straks content beheert. 
-
-> Week 1 PFED = Job (backend developer) heeft craft, sentry, heroku (productie, staging) en AWS opgezet en gelinkt. Colin heeft de structuur van craft uitgedacht in excel en gespart met Raoul hiervoor. Ook heeft hij de eerste structuur gemaakt met code en vooral getest of dingen werken of niet. 
-
-> Week 2 PFED = Start sprint 1, nog steeds veel meetings. Design presentatie, issues gemaakt aan de hand van de TA. 
-
-> Week 3 PFED = Laatste feedback punten, klant is laat met feedback, cms logica is al in de maak,
-
-> Week 4 PFED = Klant nog steeds geen akkoord op informatiearchitectuur, verder is er al wel begonnen met het bouwen (voorzichtig en voorbereidend) maar als het akkoord langer op zich laat wachten kan er niks worden gedaan. Nu vindt de klant dit niet zo erg, maar voor Onetribe is dit wel naar, aangezien zij dan langer met een project bezig zijn en in die tijd al een nieuw project hadden kunnen aannemen. 
+Verder werd er besproken hoe ze het willen bouwen, dit kwam uit op dingen zoals craft 5, tailgrids, algolia doe ook relatief nieuw waren voor veel developers. Uiteindelijk was voor mij de taak om alvast onderzoek te doen naar Tailgrids. Hoe werkt het en wat het heeft, hoe is het gebruikt door design en hoe gaan wij het straks kunnen gebruiken. Ook heb ik vragen kunnen stellen aan Colin over Craft en Algolia waardoor ik een iets beter idee kreeg waarover werd overlegd tijdens andere meetings. Er moest namelijk een solide plan op tafel komen hoe de website gebouwd zou worden. Hier werd een excel sheet voor gemaakt met alle soorten pagina's en soorten blokken waar content beheerders straks zelf pagina's mee kunnen samenstellen, op basis van de informatiearchitectuur. Ook werd er nog gekeken of alles in het concept technisch haalbaar was, en of dingen niet misschien anders zouden kunnen om meer marge in onze uren te creëren. 
+Deze fase van het project heeft mij ontzettend veel geleerd over de samenwerking tussen de teams, waar je allemaal op moet letten, wat er beproken wordt, hoe de communicatie verloopt, en heeft mij ook meer kennis gegeven over het proces.
 
 ## Analyse feedbackformulieren 
 
