@@ -2,7 +2,7 @@
 ## _Jop Molenaar, 500880472, CMD Amsterdam_
 
     Functie: Front-end developer
-    Docentbegeleider: Anne Marleen Olthof
+    Docentbegeleider: Kevin van der Wiel
     Bedrijfsbegeleider: Michael Post, full-stack developer
     Datum: <!-- oplevering datum-->
 
