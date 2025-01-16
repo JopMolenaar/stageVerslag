@@ -45,12 +45,15 @@ Ik heb tijdens mijn stage meegewerkt aan meerdere projecten waaronder Peakz pade
 
 Aan het begin van de stage werd ik op Peakz padel gezet dat in zijn laatste fase zat van de development faze. Hier kon ik nog de laatste features bouwen en vooral bugs oplossen en inkomen in het leren van een nieuw framework namelijk vue.js/nuxt.js, maar ook alle andere systemen en flows waar Onetribe gebruikt van maakt. Hierbij kwam ik ook als eerst in aanraking met standups met verschillende disciplines bij elkaar. Voor Peakz padel heb ik veel contact gehad met andere disciplines om het product dat bijna zou worden opgeleverd nog iets beter te maken. Zo heb ik bijvoorbeeld ook input kunnen gegeven bij problemen zoals het weinig ruimte over hebben in de navigatiebalk nadat de Duitse vertalingen van peakz padel .de binnen kwamen. Maar op dit project heb ik ook wat kunnen bijdragen aan het verbeteren van de user experience van de formulieren om events aan te vragen via de website. Op de website waren namelijk knoppen die naar hetzelfde formulier gingen, maar wel de gebruiker al een keuze liet maken over een bepaalde vraag in het formulier. Dit werd alleen nog niet meegenomen in het formulier zelf. Na wat research naar Noteforms kon ik deze feature implementeren en zorgde ik ervoor dat de manier waarop de klant dit later zelf kon doen duidelijk was. Dit ben ik ook nog een keer nagegaan bij een project manager. 
 
-[afbeeldingen-peakz-padel-website-formulieren]
-[afbeeldingen-peakz-padel-website-duitse-navigatie]
+![](images/keuzeFormPeakz.png)
+
+![](images/preFilledFormPeakz.png)
+
+![](images/lastBreakPointPeakzDe.png)
 
 Bij Oba leef en leer heb ik mijn nieuwe vue kennis kunnen toepassen op wat complexere problemen. Zo heb ik mij bijvoorbeeld kunnen verdiepen in een bug waar een afbeelding op bepaalde breakpoints super klein werd.
 
-[foto-oba-kleine-afbeelding] + oplossing?
+![](images/smallImageLEL.png)
 
 Maar ook kunnen bezig houden aan een probleem met de filter functie op locaties op de website. Bij een filter optie op de website lukte het niet om op bepaalde filters te filteren. De website van Onetribe handelde alles goed af, maar het lag juist aan de service die werd gebruikt om te filteren. Die gaven namelijk niet de goede url terug van de kaart met alle gefilterde locaties. Om verwarring voor de gebruiker te voorkomen heb ik in de code de betreffende filters uitgecommend (zodat dit niet opnieuw moet worden geschreven door een developer), en een comment erboven toegevoegd over waarom het is uitgecommend. 
 
@@ -82,6 +85,8 @@ Halverwege mijn stage kreeg ik de opdracht om de logica van een formulier voor v
 ---
 
 Door de hele stage heen heb ik aan meerdere projecten gezeten en dit betekende ook dat ik meerdere verschillende projecten lokaal heb moeten opzetten om er aan te kunnen werken. Dit ging niet altijd heel soepel en hier had ik vaak hulp bij nodig. Meer hierover heb ik beschreven onder het kopje "Opzetten projecten", te lezen in de bijlagen. Projecten moeten op bepaalde momenten ook gedeployed worden zodat het live komt te staan. Dit heb ik ook een aantal keer mogen doen voor Oba congres en de Rijke Noorzee. Na een GO van de klant mocht ik samen met een andere developer alle stappen doorlopen die nodig waren om de website op de juiste manieren volgens de standaarden van Onetribe te deployen. Meer hierover en over de versie nummers van de website en de deploy stappen staan in de bijlagen onder "Git flow" en "Git flow deployment".
+
+![](images/releaseObaCongres.png)
 
 Maar waar ik mij het grootste deel van de stage bezig mee heb gehouden is het actief meedoen aan een groot project voor Patientenfederatie. Ik werd hier op gezet toen het nog vol in de design fase zat, en kwam bij meetings te zitten waar werd besproken wat voor techstack het zou krijgen, wat de bedoeling zou zijn, wat er allemaal qua functies was verkocht en wat de prioriteit was vanuit de klant. Ook konden we ons al inlezen in het design en vragen stellen over bepaalde onzekerheden. 
 
@@ -321,12 +326,7 @@ voorbeelden uit de projecten waar je aan gewerkt hebt.
   - Week 9: vista logica (kritisch naar het formulier gekeken en features erbij gebouwd die nog niet bestonden zoals: extra lagen toevoegen aan het formulier en velden kunnen tonen, de extra velden kunnen valideren (voor meerdere types in de diepere lagen), geneste antwoorden kunnen verwijderen als je een lag erboven iets veranderd, error meldingen voor die geneste velden kunnen laten zien, ) ook nog de code geoptimaliseerd.
   - Week 14: rss feed
   -->
- 
- ### Werkwijzen Onetribe
-<!-- TODO dit is misschien meer over het bedrijf zelf? -->
-  Aangezien Onetribe gefuseerd is met noprotocol hebben ze nu nog meerdere werk-omgevingen en manieren voor de versie beheer. Ik dacht eerst dat er meerdere manier waren maar uiteindelijk kwam ik erachter dat ze allemaal de git flow manier willen aanhouden. Hierbij wordt de versie van je applicatie automatisch geupdate aan de hand van wat je in je commit messages zet. Ook worden de branches automatisch in een map geordend aan de hand van wat je voor je branch zet. Naast git flow heb ik ook geleerd dat ze de commit messages in voltooide tijd schrijven, dit is handig want dan leest diegene die het reviewed wat die changes gaan doen en niet wat ze al gedaan hebben, want dat is niet zo. 
 
-  ...
 
 ## Observatieopdrachten
 
